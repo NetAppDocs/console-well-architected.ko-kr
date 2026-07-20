@@ -125,7 +125,6 @@
   <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">콜드 데이터 계층화를 활성화하여 콜드 데이터를 SSD 스토리지 계층에서 비용이 저렴한 스토리지로 이동합니다. Azure Blob Storage는 비활성 데이터를 위한 용량 계층 역할을 합니다.</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">다음 단계</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">잘 설계된 Cloud Volumes ONTAP 시스템 구성 구현</block>
-  <block id="70c25ce13f84b6cf616c5c5393012e5d" category="paragraph"><block ref="70c25ce13f84b6cf616c5c5393012e5d" category="inline-link-macro-rx"></block></block>
   <block id="17971bad5bbff77e668b69daffb7a446" category="summary">워크로드 팩토리는 Cloud Volumes ONTAP 구성을 스캔하여 운영 효율성을 달성하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다.</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">구성 분석 인사이트 및 권장 사항을 활용하여 NetApp을 통해 Microsoft Azure 스토리지에서 실행되는 Cloud Volumes ONTAP 시스템에 대한 모범 사례를 구현하세요. 아키텍처가 잘 설계된 상태를 쉽게 검토하고, 구성 관련 문제를 파악하고, 안정성, 보안, 효율성, 성능 및 비용 측면에서 최적화되지 않은 시스템의 아키텍처를 개선하기 위한 권장 사항을 받아볼 수 있습니다.</block>
   <block id="2481fd47e889a8c5be960ceeee3fc039" category="inline-link-macro">구성 분석 및 아키텍처 설계 상태에 대해 알아보세요.</block>
@@ -199,7 +198,6 @@
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*비활성 NAS 볼륨*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">구성 분석을 통해 활발하게 사용되지 않는 NAS 볼륨을 식별하고 비용 절감을 위해 해당 볼륨을 삭제하거나 아카이빙할 것을 권장합니다.</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">ONTAP 파일 시스템 구성을 위한 잘 설계된 FSx 구현</block>
-  <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">_작업 및 복구_ 권한 부여</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">AWS 계정에 <block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block>해야 합니다.</block>
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다.</block>
@@ -573,4 +571,6 @@
   <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">Well-architected 대시보드의 *해제된 구성*에서 확인하세요.</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">NetApp Console의 well-architected 대시보드의 새로운 기능을 알아보십시오.</block>
   <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">NetApp Console의 Well-Architected 대시보드 새로운 기능</block>
+  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
+  <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
 </blocks>
