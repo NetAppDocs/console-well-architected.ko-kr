@@ -1,0 +1,27 @@
+= NetApp Console의 잘 설계된 대시보드 소개
+:allow-uri-read: 
+
+
+
+
+[[introducing-the-well-architected-dashboard-in-netapp-console]]
+=== NetApp Console의 잘 설계된 대시보드 소개
+
+NetApp Console의 아키텍처 최적화 대시보드는 계정 및 지역 전반에 걸쳐 스토리지 시스템과 구성을 한눈에 볼 수 있도록 지원합니다. 이 대시보드는 운영 효율성을 극대화하는 데 도움이 되는 인사이트와 권장 사항을 제공합니다. 구성의 아키텍처 최적화 상태, 사용 중인 스토리지 유형에 대한 아키텍처 최적화 프레임워크의 핵심 요소별로 정리된 구성 문제, 그리고 구성 문제 및 권장 사항 목록을 확인할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["잘 설계된 대시보드"]에 대해 자세히 알아보십시오.
+
+Console의 잘 설계된 대시보드는 다음 스토리지 시스템에서 사용할 수 있습니다.
+
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Microsoft Azure의 Cloud Volumes ONTAP"]
+
+
+
+
+[[build-your-own-custom-rules]]
+=== 사용자 지정 규칙 만들기
+
+조직 표준 및 NetApp 모범 사례를 준수하도록 사용자 지정 규칙을 이해하기 쉬운 언어로 작성하세요. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다.
+
+https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["사용자 지정 규칙에 대해 자세히 알아보기"^]

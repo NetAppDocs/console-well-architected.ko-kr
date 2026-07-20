@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: learn-well-architected-dashboard.html 
+keywords: well-architected, best practices, well-architected system, best practices, well-architected framework, well-architected configurations, system management, system optimization, system configuration, system analysis 
+summary: NetApp Console은 시스템 구성을 검사하여 안정성, 보안, 운영 우수성, 비용 최적화 및 성능 효율성을 평가하고, 운영 우수성을 달성하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다. 
+---
+= NetApp Console의 well-architected 대시보드에 대해 알아보십시오
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Console은 사용 중인 스토리지 유형에 맞는 아키텍처 프레임워크를 기반으로 안정적이고 안전하며 효율적이고 비용 효율적인 구성을 유지 관리하고 운영할 수 있도록 지원합니다. 잘 설계된 대시보드는 계정 및 지역 전반에 걸쳐 통합된 보기를 제공하고, 팀이 위험을 식별하고 우선순위를 지정하도록 지원하며, 특정 요구 사항에 맞는 사용자 지정 규칙을 지원합니다. 스토리지 시스템 구성에 대한 자동 일일 검사를 통해 스토리지 환경을 최적화하는 데 도움이 되는 인사이트와 권장 사항을 제공합니다.
+
+
+
+[[how-it-works]]
+== 작동 방식
+
+NetApp Console은 매일 사용자의 구성을 분석합니다. 분석 결과는 우수한 아키텍처 상태, 인사이트 및 권장 사항을 제공합니다.
+
+일일 분석이 완료되면 배포의 아키텍처 대시보드에 구성 상태가 "최적화됨" 또는 "최적화되지 않음"으로 표시됩니다. 전체 최적화 점수, 범주별 구성 문제, 구성 문제 및 권장 사항 목록을 확인할 수 있습니다. 구성 문제에 대한 권장 사항을 검토할 수 있습니다. 일부 문제는 NetApp Console에서 자동으로 해결할 수 있지만, 다른 문제는 수동 작업이 필요합니다. 이 경우 NetApp Console에서 권장 변경 사항을 구현하는 데 도움이 되는 자세한 지침을 제공합니다.
+
+사용자 환경에 적용되지 않는 구성에 대한 분석은 제외할 수 있습니다. 이렇게 하면 불필요한 경고와 부정확한 최적화 결과를 방지할 수 있습니다. 특정 구성 분석을 제외하면 NetApp Console은 해당 구성을 전체 최적화 점수에 포함하지 않습니다.
+
+
+
+[[why-it-matters]]
+== 중요한 이유
+
+NetApp Console은 지속적인 평가와 권장 사항 및 문제 해결 기능을 결합하여 대규모 스토리지, 데이터베이스 및 VMware 환경에 최적의 솔루션을 적용합니다. NetApp Console에서 자동으로 적용되는 수정 기능은 인적 오류를 줄이고, 일관된 관리를 보장하며, 시스템 인프라 전반의 성능과 안정성을 유지합니다.
+
+
+
+[[supported-storage-systems]]
+== 지원되는 스토리지 시스템
+
+Console의 잘 설계된 대시보드에서 지원되는 스토리지 시스템은 다음과 같습니다.
+
+* Amazon FSx for NetApp ONTAP
+* Microsoft Azure의 Cloud Volumes ONTAP
+
+
+
+
+[[get-started-with-netapp-console-to-detect-and-fix-system-misconfigurations]]
+== NetApp Console을 사용하여 시스템 구성 오류를 감지하고 수정하는 방법을 시작합니다
+
+NetApp Console을 시작하려면 가입하고 자격 증명을 추가한 다음 연결을 설정하여 리소스를 관리하고 시스템 구성을 최적화하십시오.
+
+link:http://docs.netapp.com/us-en/console-setup-admin/task-quick-start-standard-mode.html["NetApp Console(SaaS 애플리케이션) 시작 워크플로"^]
+
+
+
+[[related-information]]
+== 관련 정보
+
+* link:fsx/improve-configurations-fsx.html["잘 설계된 FSx for ONTAP 파일 시스템 구현"^]
+* link:cvo/improve-configurations-cvo.html["잘 설계된 Cloud Volumes ONTAP 시스템 구현"^]
+

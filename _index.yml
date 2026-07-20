@@ -1,0 +1,45 @@
+---
+indexpage:
+  title: NetApp Console의 잘 설계된 대시보드
+  summary: NetApp Console은 사용자가 사용하는 스토리지 유형에 맞는 아키텍처 프레임워크를 기반으로 안정적이고 안전하며 효율적이고
+    비용 효율적인 구성을 유지 관리하고 운영할 수 있도록 지원합니다.
+  keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
+    framework, NetApp Console
+  lead: NetApp Console은 스토리지 유형의 잘 설계된 아키텍처 프레임워크에 맞춰 안정적이고 안전하며 효율적이고 비용 효율적인 스토리지
+    구성을 유지 관리할 수 있도록 지원합니다. 잘 설계된 아키텍처 대시보드는 계정 및 지역 전반에 걸쳐 통합된 보기를 제공하고, 팀이 위험을 식별하고
+    우선순위를 정하는 데 도움을 주며, 특정 요구 사항에 맞는 사용자 지정 규칙을 지원합니다.
+  tiles:
+  - title: 시작하기
+    links:
+    - title: 릴리스 노트
+      url: "/whats-new.html"
+    - title: 잘 설계된 대시보드에 대해 알아보기
+      url: "/learn-well-architected-dashboard.html"
+  - title: 지원되는 제품
+    links:
+    - title: Amazon FSx for NetApp ONTAP
+      url: "/fsx/configuration-analysis-fsx.html"
+    - title: Cloud Volumes ONTAP
+      url: "/cvo/configuration-analysis-cvo.html"
+  - title: 나만의 규칙 만들기
+    links:
+    - title: 사용자 지정 규칙에 대해 알아보기
+      url: "/learn-custom-rules.html"
+    - title: 사용자 지정 규칙 만들기
+      url: "/create-custom-rule.html"
+    - title: 사용자 지정 규칙 관리
+      url: "/manage-custom-rules.html"
+  - title: 지식 및 지원
+    links:
+    - title: 지원 등록
+      url: "/register-support.html"
+    - title: 도움말 보기
+      url: "/get-help.html"
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/

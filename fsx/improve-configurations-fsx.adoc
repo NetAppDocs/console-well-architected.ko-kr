@@ -1,0 +1,139 @@
+---
+sidebar: sidebar 
+permalink: fsx/improve-configurations-fsx.html 
+keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Amazon FSx for NetApp ONTAP, FSx for ONTAP 
+summary: 워크로드 팩토리는 Amazon FSx for NetApp ONTAP 구성을 스캔하여 운영 효율성을 달성하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다. 
+---
+= ONTAP 파일 시스템 구성을 위한 잘 설계된 FSx 구현
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+다음에서 해결되지 않은 지시문: <stdin> - include::https://raw.githubusercontent.com/NetAppDocs/workload-fsx-ontap/main/_include/improve-configurations-fsx.adoc[]
+
+
+
+[[before-you-begin]]
+== 시작하기 전에
+
+* AWS 계정에 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["_작업 및 복구_ 권한 부여"^]해야 합니다.
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다."] 파일 시스템 리소스에 대한 가장 포괄적인 분석을 제공합니다.
+
+
+
+
+[[fix-a-configuration-issue]]
+== 구성 문제 해결
+
+FSx for ONTAP 파일 시스템 또는 파일 시스템 내 선택한 볼륨의 구성 문제를 해결할 수 있습니다. 해결할 구성을 하나 이상 선택할 수 있습니다.
+
+문제 해결 과정에서 인스턴스 다운타임이나 서비스 중단이 발생할 수 있습니다. 구성 문제를 수정하기 전에 각 권장 사항을 주의 깊게 검토하십시오.
+
+.단계
+. 다음 중 하나를 사용하여 로그인하세요link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 경험"^].
+. 메뉴 image:workloads-menu-icon.png["햄버거 메뉴 아이콘은 스토리지, EDA, AI, 데이터베이스, VMware 및 관리와 같은 워크로드를 탐색하는 데 사용됩니다."]를 선택한 다음 *Storage*를 선택합니다.
+. Storage 메뉴에서 *Well-architected*를 선택합니다.
+. 구성에 대해 *문제 보기*를 선택합니다. 권장 사항을 꼼꼼히 검토하십시오.
++
+이 권장 사항은 모범 사례와 최적화되지 않은 구성의 잠재적 문제점을 설명합니다.
+
+. *수정*을 선택합니다.
++
+*보기 및 수정* 옵션이 나타나면 수정할 영향을 받는 볼륨을 선택하십시오.
+
+. 대화 상자에 표시되는 요약 및 조치 항목을 검토하여 문제를 해결할 경우 발생하는 상황을 확인하십시오. 일부 작업은 인스턴스 다운타임 또는 서비스 중단을 초래할 수 있습니다.
+. 구성 문제를 해결하려면 *계속*을 선택하십시오.
+
+
+.결과
+Workload Factory에서 문제 해결 프로세스를 시작합니다. 계정 설정 메뉴를 선택한 다음 *Tracker*를 선택하여 작업 상태를 확인하십시오.
+
+
+
+[[dismiss-a-configuration-analysis]]
+== 구성 분석 무시
+
+FSx for ONTAP 파일 시스템 또는 선택한 볼륨에 대한 구성 분석을 중지합니다. 필요에 따라 분석을 다시 시작할 수 있습니다.
+
+[role="tabbed-block"]
+====
+.파일 시스템에 대한 구성 분석 무시
+--
+.단계
+. 다음 중 하나를 사용하여 로그인하세요link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 경험"^].
+. 메뉴 image:workloads-menu-icon.png["햄버거 메뉴 아이콘은 스토리지, EDA, AI, 데이터베이스, VMware 및 관리와 같은 워크로드를 탐색하는 데 사용됩니다."]를 선택한 다음 *Storage*를 선택합니다.
+. Storage 메뉴에서 *Well-architected*를 선택합니다.
+. 구성에 대해 *문제 보기*를 선택합니다. 권장 사항을 꼼꼼히 검토하십시오.
++
+이 권장 사항은 모범 사례와 최적화되지 않은 구성의 잠재적 문제점을 설명합니다.
+
+. 구성에서 사용자 환경에 적용되지 않는 구성을 찾은 다음 *닫기*를 선택합니다.
+. 구성 분석을 중지하려면 [구성 해제] 대화 상자에서 [닫기]를 선택하십시오.
+
+
+--
+.볼륨에 대한 구성 분석 무시
+--
+.단계
+. 다음 중 하나를 사용하여 로그인하세요link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 경험"^].
+. 메뉴 image:workloads-menu-icon.png["햄버거 메뉴 아이콘은 스토리지, EDA, AI, 데이터베이스, VMware 및 관리와 같은 워크로드를 탐색하는 데 사용됩니다."]를 선택한 다음 *Storage*를 선택합니다.
+. Storage 메뉴에서 *Well-architected*를 선택합니다.
+. 구성에서 선택한 볼륨에 대해 해제할 구성을 확인한 다음 *보기 및 수정*을 선택합니다.
+. 구성 분석에서 제외할 볼륨을 식별합니다.
++
+** 볼륨 하나의 경우: 작업 메뉴를 선택한 다음 *볼륨 닫기*를 선택하십시오.
+** 여러 볼륨을 처리하려면 볼륨을 선택한 다음 일괄 작업 옆에 있는 *Dismiss*를 선택하십시오.
+
+
+. 구성에 대한 분석을 중지하려면 *Dismiss* 를 선택합니다.
+. 볼륨 닫기 대화 상자에서 *닫기*를 선택하여 확인합니다.
+
+
+--
+====
+.결과
+파일 시스템 또는 선택한 볼륨에 대한 구성 분석이 중지됩니다.
+
+언제든지 분석을 다시 활성화할 수 있습니다.
+
+
+
+[[reactivate-a-dismissed-configuration-analysis]]
+== 해제된 구성 분석을 다시 활성화합니다
+
+해제된 구성 분석을 언제든지 다시 활성화할 수 있습니다. 하나 이상의 구성을 선택하여 다시 활성화할 수 있습니다.
+
+[role="tabbed-block"]
+====
+.파일 시스템에 대한 구성 분석 재활성화
+--
+.단계
+. 다음 중 하나를 사용하여 로그인하세요link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 경험"^].
+. 메뉴 image:workloads-menu-icon.png["햄버거 메뉴 아이콘은 스토리지, EDA, AI, 데이터베이스, VMware 및 관리와 같은 워크로드를 탐색하는 데 사용됩니다."]를 선택한 다음 *Storage*를 선택합니다.
+. Storage 메뉴에서 *Well-architected*를 선택합니다.
+. *해제된 구성*을 선택합니다.
+. 다시 활성화할 구성을 선택하고 *다시 활성화*를 선택하십시오.
+
+
+--
+.볼륨에 대한 구성 분석 재활성화
+--
+.단계
+. 다음 중 하나를 사용하여 로그인하세요link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["콘솔 경험"^].
+. 메뉴 image:workloads-menu-icon.png["햄버거 메뉴 아이콘은 스토리지, EDA, AI, 데이터베이스, VMware 및 관리와 같은 워크로드를 탐색하는 데 사용됩니다."]를 선택한 다음 *Storage*를 선택합니다.
+. Storage 메뉴에서 *Well-architected*를 선택합니다.
+. *해제된 구성*을 선택합니다.
+. 구성 분석을 통해 재활성화할 볼륨을 식별합니다.
++
+** 볼륨 하나의 경우: 작업 메뉴를 선택한 다음 *볼륨 재활성화*를 선택합니다.
+** 여러 볼륨을 처리하려면 볼륨을 선택한 다음 일괄 작업 옆에 있는 *Reactivate*를 선택하십시오.
+
+
+
+
+--
+====
+.결과
+시스템이 구성 분석을 다시 시작합니다. 새로운 분석은 매일 수행됩니다.
