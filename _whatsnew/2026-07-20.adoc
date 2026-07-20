@@ -13,8 +13,8 @@ link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architect
 
 Console의 잘 설계된 대시보드는 다음 스토리지 시스템에서 사용할 수 있습니다.
 
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Microsoft Azure의 Cloud Volumes ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure의 Cloud Volumes ONTAP"]
 
 
 

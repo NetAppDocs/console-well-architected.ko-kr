@@ -6,9 +6,7 @@
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph"><block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
   <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">Console의 잘 설계된 대시보드는 다음 스토리지 시스템에서 사용할 수 있습니다.</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
-  <block id="d99d7f946ceac15eeacc4a0c7735874d" category="list-text"><block ref="d99d7f946ceac15eeacc4a0c7735874d" category="inline-link-macro-rx"></block></block>
   <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Microsoft Azure의 Cloud Volumes ONTAP</block>
-  <block id="e4ef65f45fd48bfa39ea36cadb3df4ce" category="list-text"><block ref="e4ef65f45fd48bfa39ea36cadb3df4ce" category="inline-link-macro-rx"></block></block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">사용자 지정 규칙 만들기</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">조직 표준 및 NetApp 모범 사례를 준수하도록 사용자 지정 규칙을 이해하기 쉬운 언어로 작성하세요. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다.</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">사용자 지정 규칙에 대해 자세히 알아보기</block>
@@ -202,20 +200,15 @@
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">구성 분석을 통해 활발하게 사용되지 않는 NAS 볼륨을 식별하고 비용 절감을 위해 해당 볼륨을 삭제하거나 아카이빙할 것을 권장합니다.</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">ONTAP 파일 시스템 구성을 위한 잘 설계된 FSx 구현</block>
   <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
-  <block id="b8bfbf72dc92e989a0b91cd409144076" category="summary">워크로드 팩토리는 Amazon FSx for NetApp ONTAP 구성을 스캔하여 운영 효율성을 달성하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다.</block>
-  <block id="72df52ed3a20abfa3d207dfbc53e2ae4" category="paragraph">다음에서 해결되지 않은 지시문: &lt;stdin&gt; - include::https://raw.githubusercontent.com/NetAppDocs/workload-fsx-ontap/main/_include/improve-configurations-fsx.adoc[]</block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">_작업 및 복구_ 권한 부여</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">AWS 계정에 <block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block>해야 합니다.</block>
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다.</block>
-  <block id="bdcff0916b9de421b3f836810688eb67" category="list-text"><block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block> 파일 시스템 리소스에 대한 가장 포괄적인 분석을 제공합니다.</block>
   <block id="74bdd3d51d7fef35f3c1e1829b2c63fe" category="section-title">구성 문제 해결</block>
   <block id="4d39d4688820662a72b89ef0ab12f050" category="paragraph">FSx for ONTAP 파일 시스템 또는 파일 시스템 내 선택한 볼륨의 구성 문제를 해결할 수 있습니다. 해결할 구성을 하나 이상 선택할 수 있습니다.</block>
   <block id="cd375ffa56c1139e1dfd8d14cf3947db" category="paragraph">문제 해결 과정에서 인스턴스 다운타임이나 서비스 중단이 발생할 수 있습니다. 구성 문제를 수정하기 전에 각 권장 사항을 주의 깊게 검토하십시오.</block>
   <block id="342a19841e494c61bf9c06a5879eaffa" category="inline-image-macro">햄버거 메뉴 아이콘은 스토리지, EDA, AI, 데이터베이스, VMware 및 관리와 같은 워크로드를 탐색하는 데 사용됩니다.</block>
   <block id="757a7ffb20a279d7239febb013141ad5" category="list-text">메뉴 <block ref="d1917ed039a7bd34b3d1373e5ffc5ece" category="inline-image-macro-rx" type="image"></block>를 선택한 다음 *Storage*를 선택합니다.</block>
   <block id="8c8656579a32ab7e80c68b10832337bb" category="list-text">Storage 메뉴에서 *Well-architected*를 선택합니다.</block>
-  <block id="4f5fc99db78476b3b87fbb795ab55b26" category="list-text">구성에 대해 *문제 보기*를 선택합니다. 권장 사항을 꼼꼼히 검토하십시오.</block>
-  <block id="c9e425055996f71ecfc858708d926276" category="paragraph">이 권장 사항은 모범 사례와 최적화되지 않은 구성의 잠재적 문제점을 설명합니다.</block>
   <block id="8e369a2580b67427ac856eea6e4e3eb6" category="list-text">*수정*을 선택합니다.</block>
   <block id="fe5f70c74405942514095d724e090b64" category="paragraph">*보기 및 수정* 옵션이 나타나면 수정할 영향을 받는 볼륨을 선택하십시오.</block>
   <block id="44642e2ce79e19a13d96c2540f6a27e3" category="list-text">대화 상자에 표시되는 요약 및 조치 항목을 검토하여 문제를 해결할 경우 발생하는 상황을 확인하십시오. 일부 작업은 인스턴스 다운타임 또는 서비스 중단을 초래할 수 있습니다.</block>
@@ -540,7 +533,6 @@
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">로그인 자격 증명 토큰을 갱신해야 하는 경우 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 메뉴에 *자격 증명 업데이트* 옵션이 있습니다.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이 계정의 토큰은 90일 후에 만료되므로 유의하십시오. 이를 알리는 알림이 게시됩니다.</block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="doc">2026년 7월 20일</block>
-  <block id="55cd06443095efee4eabc129ca3081e4" category="paragraph">permalink: whats-new.html keywords: 새로운 기능, 기능, 신규, 릴리스 노트, 향상된 기능, 수정 사항, 새로운 기능, well-architected, well-architected 대시보드, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap summary: "NetApp Console의 Well-Architected 대시보드의 새로운 기능에 대해 알아보십시오." --- = NetApp Console의 Well-Architected 대시보드 새로운 기능 :icons: font :imagesdir: ./media/</block>
   <block id="b718f3585030c0abec042a5bbf6d2e9f" category="paragraph">Workload Factory의 Well-architected 구성 요소에 새로 추가된 기능을 알아보세요.</block>
   <block id="ada3d9e6c32ad89515ed748b05fc1156" category="paragraph">NetApp Console의 Well-Architected 대시보드의 새로운 기능에 대해 알아보십시오.</block>
   <block id="c7c52ad889fc325f79c9eb4c7bf5f790" category="sidebar">NetApp Console은 스토리지 유형의 잘 설계된 아키텍처 프레임워크에 맞춰 안정적이고 안전하며 효율적이고 비용 효율적인 스토리지 구성을 유지 관리할 수 있도록 지원합니다. 잘 설계된 아키텍처 대시보드는 계정 및 지역 전반에 걸쳐 통합된 보기를 제공하고, 팀이 위험을 식별하고 우선순위를 정하는 데 도움을 주며, 특정 요구 사항에 맞는 사용자 지정 규칙을 지원합니다.</block>
@@ -560,4 +552,25 @@
   <block id="b19bb0439c5d62764cdbd2b118e3f054" category="sidebar">구성 분석</block>
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">파일 시스템 구성 개선</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">시스템 구성 개선</block>
+  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
+  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
+  <block id="2888fa977354ad1bf513fa2f17fdd7df" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템 배포 환경에서 실행되는 워크로드를 매일 분석합니다. 분석 결과는 우수한 아키텍처 상태, 인사이트 및 권장 사항을 제공합니다.</block>
+  <block id="678b83ba882b41e4bae10f8e48f4a766" category="paragraph">일일 분석이 완료되면 배포의 Well-architected 대시보드에 구성 상태가 "최적화됨" 또는 "최적화되지 않음"으로 표시됩니다. 전체 최적화 점수, 범주별 구성 문제, 구성 문제 및 권장 사항 목록을 확인할 수 있습니다. 구성 문제에 대한 권장 사항을 검토할 수 있습니다. 일부 문제는 Workload Factory에서 자동으로 수정되지만, 다른 문제는 수동 개입이 필요합니다. 이 경우 Workload Factory는 권장 변경 사항을 구현하는 데 도움이 되는 자세한 지침을 제공합니다.</block>
+  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">사용자 환경에 적용되지 않는 구성에 대한 분석은 제외할 수 있습니다. 이렇게 하면 불필요한 경고와 부정확한 최적화 결과를 방지할 수 있습니다. 특정 구성 분석을 제외하면 Workload Factory는 해당 구성을 전체 최적화 점수 계산에 포함하지 않습니다.</block>
+  <block id="1ae45cc8915c23757127ca10c1cc4000" category="paragraph">Workload Factory는 지속적인 평가와 권장 사항 인사이트 및 문제 해결을 결합하여 대규모 스토리지, 데이터베이스 및 VMware 환경에 모범 사례를 적용합니다. Workload Factory 콘솔에서 적용되는 자동화된 수정 사항은 인적 오류를 줄이고 일관된 관리를 보장하며 워크로드 인프라 전반의 성능과 안정성을 유지합니다.</block>
+  <block id="e3a12eeb93ddbad9936f64a12bb2990b" category="summary">Workload Factory는 Amazon FSx for NetApp ONTAP 구성을 스캔하여 운영 효율성을 달성하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다.</block>
+  <block id="55f2831e5ee9e4f5e3415852d7e413ac" category="paragraph">구성 분석 인사이트와 권장 사항을 활용하여 Workload Factory를 통해 FSx for ONTAP 파일 시스템에 대한 모범 사례를 구현할 수 있습니다. 시스템 아키텍처의 우수성 현황을 쉽게 검토하고, 구성상의 문제를 파악하며, 안정성, 보안, 효율성, 성능 및 비용 측면에서 최적화되지 않은 시스템의 아키텍처를 개선하기 위한 조치를 취할 수 있습니다.</block>
+  <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">또한 불필요한 경고 및 부정확한 최적화 결과를 방지하기 위해 스토리지 환경에 적용되지 않는 특정 스토리지 구성에 대한 분석을 제외할 수 있습니다.</block>
+  <block id="04b3e1206245453c778ab6cffd793ea7" category="inline-link-macro">Workload Factory의 구성 분석 및 아키텍처 설계 상태에 대해 알아보세요.</block>
+  <block id="4aa06a8f25c52b419690e3e3f49c6ed5" category="paragraph"><block ref="4aa06a8f25c52b419690e3e3f49c6ed5" category="inline-link-macro-rx"></block></block>
+  <block id="7666c58e0bddac1cbe28645920551133" category="paragraph">Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템 배포 구성을 매일 분석합니다. 일일 분석을 통해 아키텍처가 잘 설계되었는지 여부와 함께 통찰력 및 권장 사항을 제공하며, 구성 문제를 자동으로 수정하여 파일 시스템이 모범 사례를 충족하도록 지원하는 옵션도 제공합니다.</block>
+  <block id="e7b9cb1cfdf339ec8cea0ee3bb7d6563" category="paragraph">링크 또는 콘솔 에이전트 연결을 통해 Workload Factory는 성능, 데이터 보호 및 구성 문제를 파악하기 위해 파일 시스템에 대한 포괄적인 검사를 수행할 수 있습니다.</block>
+  <block id="efa540b6730dc694889e9447404ff68a" category="paragraph">Workload Factory 콘솔의 스토리지에서 파일 시스템 구성 문제에 대한 권장 사항을 검토하고 문제를 해결할 수 있는 옵션이 있습니다.</block>
+  <block id="2fe18b688cc61d042ef62fb924155b95" category="paragraph">스토리지 구성 요구 사항은 다양하므로 스토리지 환경에 적용되지 않는 특정 구성의 분석을 제외할 수 있습니다. 이렇게 하면 불필요한 경고와 부정확한 최적화 결과를 방지할 수 있습니다. 특정 구성 분석을 제외하면 해당 구성은 전체 최적화 점수 계산에 포함되지 않습니다.</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">콘솔 에이전트 설치</block>
+  <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> 또는 <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block> 파일 시스템 리소스에 대한 가장 포괄적인 분석을 확인하십시오.</block>
+  <block id="4411c3b68fd3c93bc7694b361cc21eaf" category="paragraph">권장 사항을 꼼꼼히 검토하십시오. 이 권장 사항은 모범 사례와 최적화되지 않은 구성의 잠재적 문제점을 설명합니다.</block>
+  <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">Well-architected 대시보드의 *해제된 구성*에서 확인하세요.</block>
+  <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">NetApp Console의 well-architected 대시보드의 새로운 기능을 알아보십시오.</block>
+  <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">NetApp Console의 Well-Architected 대시보드 새로운 기능</block>
 </blocks>
