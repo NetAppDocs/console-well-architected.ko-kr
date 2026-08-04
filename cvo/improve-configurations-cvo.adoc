@@ -88,7 +88,7 @@ Cloud Volumes ONTAP 시스템 또는 선택한 볼륨에 대한 구성 분석을
 
 [role="tabbed-block"]
 ====
-.파일 시스템에 대한 구성 분석 무시
+.시스템에 대한 구성 분석 해제
 --
 .단계
 . link:https://console.netapp.com/home["NetApp Console"^]에 로그인하십시오.
@@ -119,7 +119,7 @@ Cloud Volumes ONTAP 시스템 또는 선택한 볼륨에 대한 구성 분석을
 --
 ====
 .결과
-파일 시스템 또는 선택한 볼륨에 대한 구성 분석이 중지됩니다.
+시스템 또는 선택한 볼륨에 대한 구성 분석이 중지됩니다.
 
 언제든지 분석을 다시 활성화할 수 있습니다.
 
@@ -132,7 +132,7 @@ Cloud Volumes ONTAP 시스템에 대해 해제된 구성 분석을 언제든지 
 
 [role="tabbed-block"]
 ====
-.파일 시스템에 대한 구성 분석 재활성화
+.시스템에 대한 구성 분석 재활성화
 --
 .단계
 . link:https://console.netapp.com/home["NetApp Console"^]에 로그인하십시오.
