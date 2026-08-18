@@ -1,71 +1,7 @@
-= FSx for ONTAP의 구성 이름이 잘 설계된 대시보드에서 업데이트되었습니다
+= Microsoft Azure의 Cloud Volumes ONTAP 구성 수정, 해제 및 재활성화
 :allow-uri-read: 
 
 
-
-
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== FSx for ONTAP의 구성 이름이 잘 설계된 대시보드에서 업데이트되었습니다
-
-NetApp Console의 잘 설계된 대시보드에 명확성과 일관성을 향상시키기 위해 FSx for ONTAP의 업데이트된 스토리지 구성 이름이 추가되었습니다.
-
-다음 표는 기존 구성 이름과 잘 설계된 대시보드의 해당 새 구성 이름을 나열합니다.
-
-[cols="1,1"]
-|===
-| 이전 구성 이름 | 새 구성 이름 
-
-
-| 볼륨 백업 예약 | 볼륨 백업 
-
-
-| SSD 용량 임계값 | SSD 용량 여유 공간 
-
-
-| 파일 용량 임계값 | 파일 용량 여유 공간 
-
-
-| 장기 보존 데이터의 신뢰성 | 복제 정책 레이블 
-
-
-| 예약된 로컬 스냅샷 | 스냅샷 정책 
-
-
-| 불필요한 백업 삭제 | 백업 만료 
-
-
-| 불필요한 스냅샷 삭제 | 스냅샷 만료 
-
-
-| SSD 용량 활용률 저하 | SSD 용량 과잉 프로비저닝 
-
-
-| 비활성 블록 장치 | 비활성 블록 장치(LUN) 
-
-
-| 콜드 데이터를 계층화하여 TCO 최적화 | 콜드 데이터 티어링 
-
-
-| 볼륨 논리적 데이터 용량 보고 | 호스트에서 볼 수 있는 용량 보고 
-
-
-| FlexGroup 볼륨 재조정 | FlexGroup 볼륨 재조정 
-
-
-| FlexVol 볼륨 재조정 | FlexVol 볼륨 재조정 
-
-
-| 캐시 관계 쓰기 모드 | FlexCache 쓰기 모드 
-
-
-| 캐시 볼륨 크기 최적화 | FlexCache 복제본 크기 
-
-
-| 볼륨에 대한 무단 접근 | 무단 iSCSI 볼륨 액세스 
-
-
-| ARP/AI 비활성화됨 | 랜섬웨어 보호(ARP/AI) 
-|===
 
 
 [[fix-dismiss-and-reactivate-configurations-for-cloud-volumes-ontap-in-microsoft-azure]]

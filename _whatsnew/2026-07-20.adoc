@@ -11,11 +11,7 @@ NetApp Console의 아키텍처 최적화 대시보드는 계정 및 지역 전�
 
 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["잘 설계된 대시보드"]에 대해 자세히 알아보십시오.
 
-Console의 잘 설계된 대시보드는 다음 스토리지 시스템에서 사용할 수 있습니다.
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure의 Cloud Volumes ONTAP"]
-
+Console의 잘 설계된 대시보드는 link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure의 Cloud Volumes ONTAP."]에서 이용할 수 있습니다.
 
 
 

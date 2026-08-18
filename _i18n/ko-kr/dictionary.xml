@@ -4,7 +4,6 @@
   <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">NetApp Console의 아키텍처 최적화 대시보드는 계정 및 지역 전반에 걸쳐 스토리지 시스템과 구성을 한눈에 볼 수 있도록 지원합니다. 이 대시보드는 운영 효율성을 극대화하는 데 도움이 되는 인사이트와 권장 사항을 제공합니다. 구성의 아키텍처 최적화 상태, 사용 중인 스토리지 유형에 대한 아키텍처 최적화 프레임워크의 핵심 요소별로 정리된 구성 문제, 그리고 구성 문제 및 권장 사항 목록을 확인할 수 있습니다.</block>
   <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">잘 설계된 대시보드</block>
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph"><block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
-  <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">Console의 잘 설계된 대시보드는 다음 스토리지 시스템에서 사용할 수 있습니다.</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
   <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Microsoft Azure의 Cloud Volumes ONTAP</block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">사용자 지정 규칙 만들기</block>
@@ -482,8 +481,6 @@
   <block id="b19bb0439c5d62764cdbd2b118e3f054" category="sidebar">구성 분석</block>
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">파일 시스템 구성 개선</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">시스템 구성 개선</block>
-  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
-  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
   <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">또한 불필요한 경고 및 부정확한 최적화 결과를 방지하기 위해 스토리지 환경에 적용되지 않는 특정 스토리지 구성에 대한 분석을 제외할 수 있습니다.</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">콘솔 에이전트 설치</block>
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> 또는 <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block> 파일 시스템 리소스에 대한 가장 포괄적인 분석을 확인하십시오.</block>
@@ -568,7 +565,6 @@
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">일일 분석이 완료되면 배포의 Well-architected 대시보드에 구성 상태가 "최적화됨" 또는 "최적화되지 않음"으로 표시됩니다. 구성 문제는 범주별로 분류되어 있으며, 구성 문제 목록과 권장 사항도 확인할 수 있습니다. 구성 문제에 대한 권장 사항을 검토할 수 있습니다. 일부 문제는 Workload Factory에서 자동으로 수정되지만, 다른 문제는 수동 수정이 필요합니다. 이 경우 Workload Factory는 권장 변경 사항을 구현하는 데 도움이 되는 자세한 지침을 제공합니다.</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory는 지속적인 평가와 권장 사항 및 문제 해결 기능을 결합하여 대규모 스토리지, 데이터베이스 및 VMware 환경에 최적의 솔루션을 적용합니다. NetApp Console에서 자동으로 적용되는 수정 사항은 인적 오류를 줄이고, 일관된 관리를 보장하며, 워크로드 인프라 전반의 성능과 안정성을 유지합니다.</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">FSx for ONTAP의 구성 이름이 잘 설계된 대시보드에서 업데이트되었습니다</block>
-  <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console의 잘 설계된 대시보드에 명확성과 일관성을 향상시키기 위해 FSx for ONTAP의 업데이트된 스토리지 구성 이름이 추가되었습니다.</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">다음 표는 기존 구성 이름과 잘 설계된 대시보드의 해당 새 구성 이름을 나열합니다.</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">이전 구성 이름</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">새 구성 이름</block>
@@ -668,4 +664,13 @@
   <block id="8bd52317b540b055ec84ab7385f1789b" category="open-title">스토리지 풀에 대한 구성 분석 재활성화</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026년 8월 17일</block>
   <block id="ba1aed8913644f1ebd2b60ecd5599879" category="sidebar">스토리지 풀 구성 개선</block>
+  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">Microsoft Azure의 Cloud Volumes ONTAP.</block>
+  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">Console의 잘 설계된 대시보드는 <block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block>에서 이용할 수 있습니다.</block>
+  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">NetApp Console의 well-architected 대시보드에서 FSx for ONTAP 지원</block>
+  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console의 well-architected 대시보드는 Amazon FSx for NetApp ONTAP에서 사용할 수 있습니다.</block>
+  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">FSx for ONTAP의 구성 분석에 대해 알아보기</block>
+  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
+  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console의 잘 설계된 대시보드에 이제 FSx for ONTAP에 대한 새로운 스토리지 구성 이름이 포함됩니다.</block>
+  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">NetApp Console 시스템 페이지에 표시되는 잘 설계된 아키텍처 문제점</block>
+  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Cloud Volumes ONTAP에 대한 아키텍처 문제 알림은 NetApp Console의 스토리지 관리 시스템 페이지에서 Microsoft Azure의 Cloud Volumes ONTAP에 대해 제공됩니다. 이 기능을 통해 Azure의 Cloud Volumes ONTAP 시스템에서 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.</block>
 </blocks>

@@ -1,0 +1,84 @@
+= NetApp Console의 well-architected 대시보드에서 FSx for ONTAP 지원
+:allow-uri-read: 
+
+
+
+
+[[fsx-for-ontap-support-in-the-well-architected-dashboard-in-netapp-console]]
+=== NetApp Console의 well-architected 대시보드에서 FSx for ONTAP 지원
+
+NetApp Console의 well-architected 대시보드는 Amazon FSx for NetApp ONTAP에서 사용할 수 있습니다.
+
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["FSx for ONTAP의 구성 분석에 대해 알아보기"]
+
+
+
+
+[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
+=== FSx for ONTAP의 구성 이름이 잘 설계된 대시보드에서 업데이트되었습니다
+
+NetApp Console의 잘 설계된 대시보드에 이제 FSx for ONTAP에 대한 새로운 스토리지 구성 이름이 포함됩니다.
+
+다음 표는 기존 구성 이름과 잘 설계된 대시보드의 해당 새 구성 이름을 나열합니다.
+
+[cols="1,1"]
+|===
+| 이전 구성 이름 | 새 구성 이름 
+
+
+| 볼륨 백업 예약 | 볼륨 백업 
+
+
+| SSD 용량 임계값 | SSD 용량 여유 공간 
+
+
+| 파일 용량 임계값 | 파일 용량 여유 공간 
+
+
+| 장기 보존 데이터의 신뢰성 | 복제 정책 레이블 
+
+
+| 예약된 로컬 스냅샷 | 스냅샷 정책 
+
+
+| 불필요한 백업 삭제 | 백업 만료 
+
+
+| 불필요한 스냅샷 삭제 | 스냅샷 만료 
+
+
+| SSD 용량 활용률 저하 | SSD 용량 과잉 프로비저닝 
+
+
+| 비활성 블록 장치 | 비활성 블록 장치(LUN) 
+
+
+| 콜드 데이터를 계층화하여 TCO 최적화 | 콜드 데이터 티어링 
+
+
+| 볼륨 논리적 데이터 용량 보고 | 호스트에서 볼 수 있는 용량 보고 
+
+
+| FlexGroup 볼륨 재조정 | FlexGroup 볼륨 재조정 
+
+
+| FlexVol 볼륨 재조정 | FlexVol 볼륨 재조정 
+
+
+| 캐시 관계 쓰기 모드 | FlexCache 쓰기 모드 
+
+
+| 캐시 볼륨 크기 최적화 | FlexCache 복제본 크기 
+
+
+| 볼륨에 대한 무단 접근 | 무단 iSCSI 볼륨 액세스 
+
+
+| ARP/AI 비활성화됨 | 랜섬웨어 보호(ARP/AI) 
+|===
+
+
+[[well-architected-issues-displayed-in-netapp-console-systems-page]]
+=== NetApp Console 시스템 페이지에 표시되는 잘 설계된 아키텍처 문제점
+
+Cloud Volumes ONTAP에 대한 아키텍처 문제 알림은 NetApp Console의 스토리지 관리 시스템 페이지에서 Microsoft Azure의 Cloud Volumes ONTAP에 대해 제공됩니다. 이 기능을 통해 Azure의 Cloud Volumes ONTAP 시스템에서 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.
