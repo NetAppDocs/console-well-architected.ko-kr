@@ -636,4 +636,36 @@
   <block id="b4bb104bc7f6b013b24aa5c7a44aa055" category="open-title">시스템에 대한 구성 분석 해제</block>
   <block id="80a954d968e09a819a0b88441d353ade" category="paragraph">시스템 또는 선택한 볼륨에 대한 구성 분석이 중지됩니다.</block>
   <block id="e4950e45b6d4c698727d71332ead60c7" category="open-title">시스템에 대한 구성 분석 재활성화</block>
+  <block id="411510101e0d2ef6d81ff08c0e3c361c" category="doc">Google Cloud NetApp Volumes 지원(잘 설계된 대시보드)</block>
+  <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">NetApp Console 대시보드에서 이제 Google Cloud NetApp Volumes를 지원합니다. 스토리지 관리자는 스토리지 풀 및 구성 상태를 확인하고, 효율성, 비용, 성능, 안정성 및 보안을 개선하기 위한 권장 사항을 받아보고, 운영을 최적화하고 모범 사례를 따르기 위한 조치를 취할 수 있습니다.</block>
+  <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Google Cloud NetApp Volumes에 대한 구성 분석</block>
+  <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph"><block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>에 대해 자세히 알아보십시오.</block>
+  <block id="05029207853354642479203b2397ee75" category="summary">NetApp Console은 스토리지 시스템 구성을 정기적으로 분석하여 구성 문제가 있는지 확인합니다.</block>
+  <block id="d1105940d035a158565dfb73958010e1" category="paragraph">NetApp Console의 잘 설계된 대시보드는 스토리지 시스템 구성을 정기적으로 분석하여 구성 문제가 있는지 확인합니다. 문제가 발견되면 대시보드에 문제의 내용과 스토리지 시스템이 최상의 성능, 비용 효율성 및 모범 사례 준수를 달성할 수 있도록 변경해야 할 사항이 표시됩니다.</block>
+  <block id="1a47b8defb4d7d06bba18c483c447b3d" category="paragraph">완벽한 스토리지 풀 분석을 위해서는 다음 단계를 수행해야 합니다.</block>
+  <block id="356cd648ad799f2eb92aa086872fc932" category="inline-link-macro">Google Cloud NetApp Volumes 시스템을 NetApp Console에 추가하세요</block>
+  <block id="a03acef5fcdb9180f0811d46c7421b0f" category="list-text"><block ref="6ea9c63ba945b3cb96bff5e211bb3f99" category="inline-link-macro-rx"></block>.</block>
+  <block id="01b307f0335162114b66a6190044c275" category="list-text">Google Cloud 계정에서 _보기, 계획 및 분석_ 권한을 부여합니다.</block>
+  <block id="1341f195ac9799a77bdbba45d7cc551e" category="inline-link-macro">Google Cloud 계정에 권한을 부여하는 방법을 알아보십시오.</block>
+  <block id="011c3ba35123b641365e7db9c488ccaa" category="paragraph"><block ref="011c3ba35123b641365e7db9c488ccaa" category="inline-link-macro-rx"></block></block>
+  <block id="9d1211cf0c0938352f5fc0c16d3f4f45" category="paragraph">Workload Factory는 스토리지 및 ONTAP 모범 사례와 Google Cloud Well-Architected Framework를 기준으로 스토리지 구성을 평가합니다. 또한 평가 결과에 따라 개선 사항을 권장합니다.</block>
+  <block id="6e1d527b580364f3697ae14e9ee87785" category="paragraph">잘 설계된 분석은 프레임워크의 다음 두 가지 핵심 요소인 _신뢰성_ 및 _운영 우수성_을 기준으로 구성을 분류합니다.</block>
+  <block id="c5a88482771f220e57ee0ee1238fff02" category="paragraph">Workload Factory는 SSD 계층 사용률을 80% 이하로 유지할 것을 권장합니다. 일부 워크로드는 추가 용량 여유 공간이 필요하며 사용률 목표를 낮춰야 할 수 있습니다. 사용량이 권장 여유 공간을 초과하면 성능 저하 및 서비스 문제 발생 위험이 증가하며, 특히 용량을 제때 확장하지 않을 경우 더욱 그렇습니다. 하나 이상의 스토리지 풀에 대해 이 기능을 비활성화했다가 필요에 따라 나중에 다시 활성화할 수 있습니다.</block>
+  <block id="7ac5667c1b90b6524fde9817118effea" category="paragraph">Workload Factory는 공간 부족 위험을 줄이기 위해 볼륨 사용량을 80% 미만으로 유지할 것을 권장합니다. 볼륨이 예상보다 빠르게 증가하는 경우 신속하게 확장해야 할 수 있습니다. 특히 갑작스럽거나 급격한 증가는 애플리케이션에 영향을 미칠 위험을 증가시킬 수 있습니다. 씬 프로비저닝 및 자동 용량 관리를 사용하면 이 위험이 줄어듭니다. 하나 이상의 볼륨에 대해 이 기능을 비활성화했다가 필요에 따라 나중에 다시 활성화할 수 있습니다.</block>
+  <block id="f793fba5432b14d544dc9553f3dba075" category="inline-link-macro">잘 설계된 Google Cloud NetApp Volumes 구성을 구현합니다</block>
+  <block id="5ec047b28053268ed0ad18838887d2a3" category="paragraph"><block ref="5ec047b28053268ed0ad18838887d2a3" category="inline-link-macro-rx"></block></block>
+  <block id="1fbc6d00faf337e60116deb7a9436737" category="summary">워크로드 팩토리는 Google Cloud NetApp Volumes 구성을 스캔하여 운영 효율성을 높이는 데 도움이 되는 인사이트와 권장 사항을 제공합니다.</block>
+  <block id="5bf39b6df69484117b7a94f73c047bec" category="paragraph">구성 분석 인사이트 및 권장 사항을 활용하여 NetApp을 통해 Google Cloud 스토리지에서 실행되는 Google Cloud NetApp Volumes 스토리지 풀에 대한 모범 사례를 구현하세요. 아키텍처가 잘 설계된 상태를 쉽게 검토하고, 구성 관련 문제를 파악하고, 안정성, 보안, 성능 및 비용 측면에서 최적화되지 않은 스토리지 풀의 아키텍처를 개선하기 위한 권장 사항을 받아볼 수 있습니다.</block>
+  <block id="1269bb270aa667888f34bfd5203e5e88" category="paragraph"><block ref="1269bb270aa667888f34bfd5203e5e88" category="inline-link-macro-rx"></block></block>
+  <block id="7d1ff00602d5a32748c6468a1bf8908e" category="paragraph">NetApp은 Google Cloud의 NetApp Volumes 스토리지 풀 배포를 매일 분석합니다. 이 일일 분석을 통해 아키텍처가 잘 설계된 상태와 함께 구성 문제를 이해하고 스토리지 풀이 모범 사례를 준수하도록 돕는 인사이트 및 권장 사항을 제공합니다.</block>
+  <block id="d0d02e6506e8567d2ac0bb5ca6e21b91" category="paragraph">일일 분석이 완료되면 대시보드에 아키텍처가 잘 설계된 리소스의 총 개수, 심각한 상태의 리소스 개수, 경고 상태의 리소스 개수가 표시됩니다. 구성은 아키텍처 프레임워크의 핵심 요소인 안정성, 운영 효율성, 비용 최적화, 성능 효율성, 보안을 기준으로 분류됩니다. 대시보드에는 모든 구성 목록, 각 구성의 아키텍처 상태, 심각도, 범주, 리소스 유형(볼륨 또는 스토리지 풀), 영향을 받는 리소스, 그리고 구성이 최적화되지 않은 경우 권장 사항을 볼 수 있는 옵션이 포함된 표도 있습니다.</block>
+  <block id="f21564fb71fad839082e8c15cb010c91" category="inline-link-macro">Google Cloud NetApp Volumes 스토리지 풀 추가</block>
+  <block id="a0b5edb9fd5c7fc4af08ec7f9d8f5ac4" category="list-text"><block ref="c1fd87c15a6ed0202ad48d3bb45d685c" category="inline-link-macro-rx"></block> NetApp Console에 로그인하여 아키텍처 설계 상태 및 구성 문제에 대한 권장 사항을 확인해야 합니다.</block>
+  <block id="8dc69cd01e974d0a8cfceb0224c8eac3" category="paragraph">Google Cloud NetApp Volumes 스토리지 풀 또는 선택한 볼륨에 대한 구성 분석을 중지합니다. 필요에 따라 분석을 다시 시작할 수 있습니다.</block>
+  <block id="999cd7a79e85f3b89a91072601ea0f41" category="open-title">스토리지 풀에 대한 구성 분석 해제</block>
+  <block id="4f15062a66ee3b6add54b47335156af9" category="list-text">구성에서 선택한 볼륨에 대해 해제할 구성을 확인한 다음 *보기*를 선택합니다.</block>
+  <block id="702e775cae6fd33f5cbf005de9ec14c5" category="paragraph">스토리지 풀 또는 선택한 볼륨에 대한 구성 분석이 중지됩니다.</block>
+  <block id="8bd52317b540b055ec84ab7385f1789b" category="open-title">스토리지 풀에 대한 구성 분석 재활성화</block>
+  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026년 8월 17일</block>
+  <block id="ba1aed8913644f1ebd2b60ecd5599879" category="sidebar">스토리지 풀 구성 개선</block>
 </blocks>

@@ -1,0 +1,12 @@
+= Google Cloud NetApp Volumes 지원(잘 설계된 대시보드)
+:allow-uri-read: 
+
+
+
+
+[[google-cloud-netapp-volumes-support-in-the-well-architected-dashboard]]
+=== Google Cloud NetApp Volumes 지원(잘 설계된 대시보드)
+
+NetApp Console 대시보드에서 이제 Google Cloud NetApp Volumes를 지원합니다. 스토리지 관리자는 스토리지 풀 및 구성 상태를 확인하고, 효율성, 비용, 성능, 안정성 및 보안을 개선하기 위한 권장 사항을 받아보고, 운영을 최적화하고 모범 사례를 따르기 위한 조치를 취할 수 있습니다.
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes에 대한 구성 분석"]에 대해 자세히 알아보십시오.
