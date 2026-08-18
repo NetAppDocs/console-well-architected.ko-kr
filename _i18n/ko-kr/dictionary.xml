@@ -673,4 +673,5 @@
   <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console의 잘 설계된 대시보드에 이제 FSx for ONTAP에 대한 새로운 스토리지 구성 이름이 포함됩니다.</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">NetApp Console 시스템 페이지에 표시되는 잘 설계된 아키텍처 문제점</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Cloud Volumes ONTAP에 대한 아키텍처 문제 알림은 NetApp Console의 스토리지 관리 시스템 페이지에서 Microsoft Azure의 Cloud Volumes ONTAP에 대해 제공됩니다. 이 기능을 통해 Azure의 Cloud Volumes ONTAP 시스템에서 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.</block>
+  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026년 8월 10일</block>
 </blocks>
