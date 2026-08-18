@@ -564,7 +564,6 @@
   <block id="874fbc8635967fd5300d05269c50cea0" category="paragraph">Workload Factory는 지원되는 클라우드 스토리지 시스템 배포 환경에서 실행되는 워크로드를 매일 분석합니다. 분석 결과는 우수한 아키텍처 상태, 인사이트 및 권장 사항을 제공합니다.</block>
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">일일 분석이 완료되면 배포의 Well-architected 대시보드에 구성 상태가 "최적화됨" 또는 "최적화되지 않음"으로 표시됩니다. 구성 문제는 범주별로 분류되어 있으며, 구성 문제 목록과 권장 사항도 확인할 수 있습니다. 구성 문제에 대한 권장 사항을 검토할 수 있습니다. 일부 문제는 Workload Factory에서 자동으로 수정되지만, 다른 문제는 수동 수정이 필요합니다. 이 경우 Workload Factory는 권장 변경 사항을 구현하는 데 도움이 되는 자세한 지침을 제공합니다.</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory는 지속적인 평가와 권장 사항 및 문제 해결 기능을 결합하여 대규모 스토리지, 데이터베이스 및 VMware 환경에 최적의 솔루션을 적용합니다. NetApp Console에서 자동으로 적용되는 수정 사항은 인적 오류를 줄이고, 일관된 관리를 보장하며, 워크로드 인프라 전반의 성능과 안정성을 유지합니다.</block>
-  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">FSx for ONTAP의 구성 이름이 잘 설계된 대시보드에서 업데이트되었습니다</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">다음 표는 기존 구성 이름과 잘 설계된 대시보드의 해당 새 구성 이름을 나열합니다.</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">이전 구성 이름</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">새 구성 이름</block>
@@ -670,8 +669,9 @@
   <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console의 well-architected 대시보드는 Amazon FSx for NetApp ONTAP에서 사용할 수 있습니다.</block>
   <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">FSx for ONTAP의 구성 분석에 대해 알아보기</block>
   <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console의 잘 설계된 대시보드에 이제 FSx for ONTAP에 대한 새로운 스토리지 구성 이름이 포함됩니다.</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">NetApp Console 시스템 페이지에 표시되는 잘 설계된 아키텍처 문제점</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Cloud Volumes ONTAP에 대한 아키텍처 문제 알림은 NetApp Console의 스토리지 관리 시스템 페이지에서 Microsoft Azure의 Cloud Volumes ONTAP에 대해 제공됩니다. 이 기능을 통해 Azure의 Cloud Volumes ONTAP 시스템에서 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026년 8월 10일</block>
+  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">잘 설계된 대시보드에서 구성 이름이 업데이트되었습니다</block>
+  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console의 잘 설계된 대시보드에 이제 새로운 스토리지 구성 이름이 포함되었습니다.</block>
 </blocks>
