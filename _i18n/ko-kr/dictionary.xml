@@ -674,4 +674,8 @@
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026년 8월 10일</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">잘 설계된 대시보드에서 구성 이름이 업데이트되었습니다</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console의 잘 설계된 대시보드에 이제 새로운 스토리지 구성 이름이 포함되었습니다.</block>
+  <block id="1ee2856eba991f06fff41aa25f053f64" category="paragraph">또한 다음 엔드포인트에 대한 아웃바운드 연결을 설정해야 합니다.</block>
+  <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
+  <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
+  <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">다음 엔드포인트에 대한 아웃바운드 네트워크 연결을 허용하십시오.</block>
 </blocks>

@@ -33,6 +33,12 @@ link:configuration-analysis-cvo.html["구성 분석 및 아키텍처 설계 상�
 
 * link:https://console.netapp.com/add-working-environment/choose-type["Cloud Volumes ONTAP 시스템 추가"] NetApp Console에 로그인하여 아키텍처 설계 상태 및 구성 문제에 대한 권장 사항을 확인해야 합니다.
 * link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["콘솔 에이전트를 배포해야 합니다."] 시스템 리소스에 대한 가장 포괄적인 분석을 위해.
+* 다음 엔드포인트에 대한 아웃바운드 네트워크 연결을 허용하십시오.
++
+** \https://api.workloads.netapp.com
+** \https://ws.workloads.bluexp.netapp.com
+
+
 
 
 
