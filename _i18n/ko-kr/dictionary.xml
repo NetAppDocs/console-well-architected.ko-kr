@@ -678,4 +678,20 @@
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">다음 엔드포인트에 대한 아웃바운드 네트워크 연결을 허용하십시오.</block>
+  <block id="986c0b89e6f7ad596953e7ac2424db26" category="doc">Cloud Volumes ONTAP의 원격 데이터 복제 평가</block>
+  <block id="dfcd41b313833d05496197a786d2d2af" category="paragraph">Cloud Volumes ONTAP 데이터가 원격 복제로 보호되는지 확인할 수 있는 새로운 평가를 사용할 수 있습니다. 이를 통해 데이터 보호 계획이 재해 복구 및 비즈니스 연속성에 대한 모범 사례를 따르도록 보장할 수 있습니다.</block>
+  <block id="1e3316df3b456fee5d47d971c9bc6ca7" category="inline-link-macro">Cloud Volumes ONTAP의 구성 분석에 대해 알아봅니다</block>
+  <block id="120d2b8bb50127766f119c5df258a5a7" category="paragraph"><block ref="120d2b8bb50127766f119c5df258a5a7" category="inline-link-macro-rx"></block></block>
+  <block id="83eb7ae79829b538266050d3f5c9fb61" category="section-title">잘 설계된 구성 전체 무시</block>
+  <block id="e392235686146a792505661ee5217957" category="paragraph">이제 대시보드에서 권장 구성 전체를 해제할 수 있습니다. 이를 통해 사용자의 환경에 표시되는 권장 사항 및 평가를 더욱 세밀하게 제어할 수 있습니다.</block>
+  <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">잘 설계된 대시보드의 데이터베이스 워크로드 권장 사항</block>
+  <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">FSx for ONTAP을 사용하는 데이터베이스 워크로드에 대한 권장 사항이 이제 NetApp Console의 잘 설계된 대시보드에서 제공됩니다. 스토리지 리소스와 데이터베이스 워크로드의 상태를 한 곳에서 확인할 수 있으므로 인프라 상태를 완벽하게 파악할 수 있습니다.</block>
+  <block id="e4e3f7accbddfb89b3512b66c5a8a37b" category="doc">NetApp Console에서 사용자 지정 규칙 생성</block>
+  <block id="c465a7bd98f96ab6b7e15dbed5471998" category="list-text">*원격 데이터 복제*</block>
+  <block id="b03b92c4dfcafd9226ecc9026f960e01" category="paragraph">원격 복제를 통해 Cloud Volumes ONTAP 데이터를 보호하십시오. 원격 데이터 복제는 서로 다른 위치에 동기화된 데이터 복사본을 유지하여 시스템 장애나 재해 발생 시에도 비즈니스 연속성을 보장하는 재해 복구 기능을 제공합니다.</block>
+  <block id="3c768f8b4f33704ddf416410c4e008a7" category="doc">NetApp Console 클라우드 서비스 관련 도움말 보기</block>
+  <block id="ce6ef2ffcadf69c1dc27dcb9da2d801d" category="doc">NetApp Console의 사용자 지정 규칙에 대해 알아보세요.</block>
+  <block id="1b050fa37a029d628899a5bd2e48783f" category="doc">NetApp Console에서 사용자 지정 규칙 관리</block>
+  <block id="277894237bef57e14299dc8b3b8b5f13" category="doc">NetApp Console을 통해 지원을 등록합니다.</block>
+  <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026년 8월 30일</block>
 </blocks>
