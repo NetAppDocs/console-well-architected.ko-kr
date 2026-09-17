@@ -88,7 +88,6 @@
   <block id="3583e4a3e4e2e122cff65b8ad9045348" category="list-text">사전 예방적 관찰 가능성</block>
   <block id="16fcd85dc9469370b62b4b46381f8e2a" category="list-text">인사이트를 실행으로</block>
   <block id="3f6f8b4e204fd3aa39cac35661de164d" category="section-title">분석 요구 사항</block>
-  <block id="021c4674734853c034b954078fa080f3" category="inline-link-macro">NetApp 콘솔 에이전트를 배포합니다.</block>
   <block id="f064aed6dd86a2b762ecf9bcf528b941" category="section-title">Cloud Volumes ONTAP 시스템을 위한 모범 사례 및 권장 사항</block>
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">잘 설계된 분석은 프레임워크의 다음 핵심 요소인 _안정성_, _보안_, _운영 우수성_, _비용 최적화_ 및 _성능 효율성_으로 구성을 분류합니다.</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">안정성</block>
@@ -483,7 +482,6 @@
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">NetApp Console의 well-architected 대시보드는 매일 Cloud Volumes ONTAP 시스템 구성을 분석하여 구성 문제가 있는지 확인합니다.</block>
-  <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">Cloud Volumes ONTAP 시스템을 완벽하게 분석하려면 <block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block> 시스템과 NetApp Console 간의 연결을 설정해야 합니다.</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">잘 설계된 대시보드는 스토리지 구성을 평가하여 ONTAP 구성 모범 사례 및 Azure Well-Architected Framework 준수 여부에 대한 심층적인 정보를 제공합니다. 또한 이 평가는 개선 사항 및 수정 사항을 권장합니다.</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">신뢰성은 장애 발생 시에도 워크로드가 의도된 기능을 정확하고 일관되게 수행하도록 보장합니다.</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">잘 설계된 대시보드는 Cloud Volumes ONTAP 구성을 스캔하여 운영 우수성을 달성하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다.</block>
@@ -651,7 +649,6 @@
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026년 8월 10일</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">잘 설계된 대시보드에서 구성 이름이 업데이트되었습니다</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console의 잘 설계된 대시보드에 이제 새로운 스토리지 구성 이름이 포함되었습니다.</block>
-  <block id="1ee2856eba991f06fff41aa25f053f64" category="paragraph">또한 다음 엔드포인트에 대한 아웃바운드 연결을 설정해야 합니다.</block>
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">다음 엔드포인트에 대한 아웃바운드 네트워크 연결을 허용하십시오.</block>
@@ -703,4 +700,5 @@
   <block id="e1379bec6448939dd8c8e64956276571" category="paragraph">일일 분석이 완료되면 구성 상태가 아키텍처 최적화 대시보드에서 "최적화됨" 또는 "최적화되지 않음"으로 표시됩니다. 아키텍처 최적화 프레임워크의 범주(안정성, 보안, 운영 효율성, 비용 최적화, 성능 효율성)별 구성 문제와 구성 문제 목록 및 권장 사항을 확인할 수 있습니다. Workload Factory는 일부 문제를 자동으로 해결할 수 있지만, 다른 문제는 수동 조치가 필요합니다. 이 경우, 권장 사항에는 변경 사항을 구현하는 데 도움이 되는 자세한 지침이 포함되어 있습니다.</block>
   <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">사용 환경에 적용되지 않는 구성에 대한 분석은 제외할 수 있습니다. 구성을 제외하면 불필요한 경고와 부정확한 최적화 결과를 방지할 수 있습니다.</block>
   <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">NetApp Workload Factory는 지속적인 평가와 권장 사항 및 문제 해결 기능을 결합하여 대규모 스토리지, 데이터베이스 및 VMware 환경에 모범 사례를 적용합니다. 자동화된 문제 해결 기능은 인적 오류를 줄이고, 일관된 관리를 보장하며, 시스템 인프라 전반의 성능과 안정성을 유지합니다.</block>
+  <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">Cloud Volumes ONTAP와 연결된 Console 에이전트가 다음 엔드포인트에 액세스할 수 있는지 확인하십시오.</block>
 </blocks>
