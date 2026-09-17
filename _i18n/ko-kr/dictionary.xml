@@ -486,7 +486,6 @@
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">신뢰성은 장애 발생 시에도 워크로드가 의도된 기능을 정확하고 일관되게 수행하도록 보장합니다.</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">잘 설계된 대시보드는 Cloud Volumes ONTAP 구성을 스캔하여 운영 우수성을 달성하는 데 도움이 되는 통찰력과 권장 사항을 제공합니다.</block>
   <block id="7d8ce54875dd8d37c61d873a00e8d034" category="summary">잘 설계된 대시보드는 FSx for ONTAP 파일 시스템 구성을 정기적으로 분석하여 구성 문제가 있는지 여부를 판단합니다.</block>
-  <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 또는 <block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block> 파일 시스템과 NetApp Console 간의 연결을 설정합니다.</block>
   <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">잘 설계된 대시보드는 스토리지 구성을 ONTAP 모범 사례 및 AWS Well-Architected Framework에 따라 평가합니다. 또한 평가 결과는 개선 사항 및 수정 사항을 권장합니다.</block>
   <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">리전 간 복제를 사용하면 데이터가 다른 AWS 리전으로 복제되어 데이터의 내구성과 가용성이 향상됩니다. 재해 복구 및 규정 준수를 위해 리전 간 복제를 설정하세요.</block>
   <block id="5a0e6732f4b279b7f8151534487bbe55" category="paragraph">SSD 스토리지 계층의 사용률은 80%를 초과해서는 안 됩니다. 이는 용량 풀 스토리지 계층의 데이터 읽기 및 쓰기 작업에 영향을 미치고 파일 시스템의 처리량 용량에도 영향을 줄 수 있습니다. 용량이 부족해지면 데이터 볼륨은 읽기 전용이 됩니다. 새 데이터를 쓰려는 서비스도 실패합니다.</block>
@@ -680,7 +679,6 @@
   <block id="e4eebe121d284466b50faa46dec0cda9" category="paragraph">링크 또는 콘솔 에이전트 연결을 통해 NetApp Workload Factory는 파일 시스템의 성능, 데이터 보호 및 구성 문제를 종합적으로 검사할 수 있습니다. 그 결과, FSx for ONTAP 파일 시스템을 최적화하기 위한 정확한 분석 정보와 권장 사항을 제공받을 수 있습니다.</block>
   <block id="6ffd2376c7aaaca4975b1f06f24193c7" category="inline-link-macro">콘솔 에이전트 설치</block>
   <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다</block>
-  <block id="65179ff6728d2d8faef1a99d7f55f6dd" category="list-text">파일 시스템 리소스에 대한 가장 포괄적인 분석을 위해서는 <block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block> 또는 <block ref="13912c59a5ea303190d1db0c6a5f11f5" category="inline-link-macro-rx"></block>해야 합니다.</block>
   <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">단일 볼륨의 경우 *수정*을 선택하고, 여러 볼륨의 경우 *보기 및 수정*을 선택하십시오. *보기 및 수정*을 선택한 경우 수정할 영향을 받는 볼륨을 선택하십시오.</block>
   <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">구성 분석을 통해 재활성화할 볼륨을 식별합니다.</block>
   <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">Workload Factory는 스토리지 시스템 구성을 정기적으로 분석하여 구성 문제가 있는지 확인합니다. 문제가 발견되면 NetApp Console의 잘 설계된 대시보드에서 문제의 내용과 스토리지 시스템이 최상의 성능, 비용 효율성 및 모범 사례 준수를 달성할 수 있도록 변경해야 할 사항을 설명합니다.</block>
@@ -701,4 +699,6 @@
   <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">사용 환경에 적용되지 않는 구성에 대한 분석은 제외할 수 있습니다. 구성을 제외하면 불필요한 경고와 부정확한 최적화 결과를 방지할 수 있습니다.</block>
   <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">NetApp Workload Factory는 지속적인 평가와 권장 사항 및 문제 해결 기능을 결합하여 대규모 스토리지, 데이터베이스 및 VMware 환경에 모범 사례를 적용합니다. 자동화된 문제 해결 기능은 인적 오류를 줄이고, 일관된 관리를 보장하며, 시스템 인프라 전반의 성능과 안정성을 유지합니다.</block>
   <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">Cloud Volumes ONTAP와 연결된 Console 에이전트가 다음 엔드포인트에 액세스할 수 있는지 확인하십시오.</block>
+  <block id="76a31cd6a7131cd21109cee81fd94902" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 또는 <block ref="1c85a9585130a3e66370d665193250bb" category="inline-link-macro-rx"></block> 파일 시스템과 NetApp Console 간의 연결을 설정합니다.</block>
+  <block id="5be624540f07772a5d8aaac43ebbcfa8" category="list-text">파일 시스템 리소스에 대한 가장 포괄적인 분석을 위해서는 <block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block> 또는 <block ref="773b862b73888ba0f103d451af29397c" category="inline-link-macro-rx"></block>해야 합니다.</block>
 </blocks>

@@ -48,7 +48,7 @@ Workload Factory는 지속적인 평가와 권장 사항 및 문제 해결 기�
 
 완벽한 파일 시스템 분석을 위해서는 다음 단계를 수행해야 합니다.
 
-* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["NetApp Console 에이전트 배포"^] 또는 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["링크 연결"^] 파일 시스템과 NetApp Console 간의 연결을 설정합니다.
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["NetApp Console 에이전트 배포"^] 또는 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["링크 연결"^] 파일 시스템과 NetApp Console 간의 연결을 설정합니다.
 * AWS 계정에 _view, planning, and analysis_ 권한을 부여하세요.
 +
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["AWS 계정에 권한을 부여하는 방법을 알아보십시오"^]

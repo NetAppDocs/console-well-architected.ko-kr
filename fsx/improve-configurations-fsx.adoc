@@ -34,7 +34,7 @@ Workload Factory는 Amazon FSx for NetApp ONTAP 파일 시스템 배포 구성�
 == 시작하기 전에
 
 * AWS 계정에 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["_작업 및 복구_ 권한 부여"^]해야 합니다.
-* 파일 시스템 리소스에 대한 가장 포괄적인 분석을 위해서는 link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["콘솔 에이전트 설치"^] 또는 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다"]해야 합니다.
+* 파일 시스템 리소스에 대한 가장 포괄적인 분석을 위해서는 link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["콘솔 에이전트 설치"^] 또는 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다"]해야 합니다.
 
 
 
