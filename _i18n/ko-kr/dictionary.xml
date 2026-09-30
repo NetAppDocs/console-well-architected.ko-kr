@@ -47,7 +47,6 @@
   <block id="7d84a0d9d14a5f050503a7b9b00b3435" category="paragraph">AI는 사용자의 요구 사항을 더 잘 이해하기 위해 여러 옵션 중에서 선택하도록 요청할 수 있습니다. 각 질문에 답변하고 *계속*을 선택하거나, 선택 사항인 질문을 건너뛰려면 *건너뛰기*를 선택하세요.</block>
   <block id="f7dd96479a94850934674d003fe54f52" category="list-text">모든 질문에 답변한 후 *계속*을 선택하여 규칙을 만드십시오.</block>
   <block id="66178252f08edeeeeda7bfc5ebf5227b" category="section-title">규칙을 테스트합니다</block>
-  <block id="0362b2cfbfe0db96dc282024dbd64841" category="paragraph">규칙을 예약하기 전에 일회성 테스트를 실행하여 어떤 리소스에 영향을 미치는지 확인하십시오.</block>
   <block id="e0924f9cecf28912d6b59208f0ee9242" category="list-text">*규칙 유효성 검사*를 선택합니다.</block>
   <block id="87d68b4e906936ea67c73d25fddbb199" category="paragraph">이 시스템은 범위 내의 모든 리소스를 사용자가 설정한 규칙 논리에 따라 평가합니다.</block>
   <block id="6ad0887ee719e958ea66bc1d5ca7ed60" category="list-text">검증 결과를 검토하십시오:</block>
@@ -60,10 +59,8 @@
   <block id="1bb9a202a6c7284b2727618b6b42d1bf" category="list-text">*연결 오류*: 특정 파일 시스템에 대해 링크 또는 에이전트가 구성되지 않았을 수 있습니다.</block>
   <block id="6601c2de36f9d2c2a63a21c9170e4bae" category="list-text">*ONTAP 권한 오류*: 뷰어 사용자에게 특정 리소스에 대한 접근 권한이 없을 수 있습니다.</block>
   <block id="24a910eeb4468fa91fa54136e064eb5d" category="section-title">규칙 저장 또는 예약</block>
-  <block id="8c7715e49e638258c4536fec9aff1f6e" category="paragraph">규칙을 테스트한 후에는 초안으로 저장하거나 정기적으로 실행되도록 설정할 수 있습니다.</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행하십시오.</block>
   <block id="8c080127194fcaf624649c3bab095baa" category="list-text">정기적인 평가를 예약하려면 평가 빈도(최소 1시간, 기본값 24시간)를 설정하고 *Schedule*을 선택하세요. 그러면 규칙이 활성화되어 설정된 일정에 따라 실행됩니다.</block>
-  <block id="988a89425a3c56162fa9fed77217603a" category="list-text">일정을 잡지 않고 저장하려면 *임시 저장*을 선택하세요. 규칙은 저장되지만 일정을 예약하기 전까지는 평가되지 않습니다.</block>
   <block id="f3448dd91675f24e9473969b2f303b47" category="list-text">규칙을 삭제하려면 *삭제*를 선택하여 규칙 생성을 취소하고 다시 시작하세요.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
   <block id="8e89c0ba0d3b83aea36ecc1be4cfe4fb" category="paragraph">사용자 지정 규칙이 생성되어 규칙 카탈로그에 나열됩니다. 일정을 설정하면 지정된 빈도로 FSx for ONTAP 리소스를 확인합니다.</block>
@@ -296,15 +293,9 @@
   <block id="3414a9edc41238183f8bcc3192e49adf" category="section-title">규칙 수명 주기</block>
   <block id="990ef24c1b7e8a2bf1d9ad948d75e88c" category="paragraph">사용자 지정 규칙은 다음 단계를 거쳐 진행됩니다.</block>
   <block id="f03ab16cd58372c77ba45a3d9a5a1cb9" category="list-text">초안</block>
-  <block id="7edfa45546f16ea439072c85ed022ded" category="list-text">규칙이 생성되고 있습니다. 평가는 수행되지 않습니다.</block>
-  <block id="a42abfa6ff4f9bd0c4d682a01cec4455" category="list-text">드라이런</block>
-  <block id="df76323d34c18ca92f80a38fd9da8d33" category="list-text">어떤 리소스가 영향을 받을지 미리 확인하기 위한 일회성 평가입니다. 일정 수립 전 유효성 검사에 사용됩니다.</block>
   <block id="9c039c6e29eb59991bbe3702d2de1aed" category="list-text">예약됨(활성화됨)</block>
-  <block id="12401e69cfee8012efd57dfa07ccda49" category="list-text">규칙이 활성화되어 있으며 정의된 일정에 따라 실행됩니다.</block>
   <block id="b9f5c797ebbf55adccdd8539a65a0241" category="list-text">비활성화됨</block>
-  <block id="9bfd2521cfb729dd925cf45079242073" category="list-text">규칙이 일시 중지되었지만 삭제된 것은 아닙니다. 다시 활성화할 수 있습니다.</block>
   <block id="5fe6005bf6e415c950c011fb65f12b8f" category="list-text">삭제됨</block>
-  <block id="82ec5f7cc11035152c40e48c55c05b0d" category="list-text">해당 규칙은 영구적으로 삭제되었습니다.</block>
   <block id="2090e30be5c37fb6b5aa40aa26a83dea" category="section-title">사용자 지정 규칙 예시</block>
   <block id="d272586227e521ec436cb6d107bc72ba" category="paragraph">다음 예시는 일반적인 사용자 지정 규칙을 보여줍니다.</block>
   <block id="ee7f53b205e43e7a5017510113ca16f8" category="list-text">*프로덕션 볼륨 보호*</block>
@@ -349,7 +340,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
   <block id="2f7453885ba13ef684e6cd780fb74164" category="summary">규칙 카탈로그에서 사용자 지정 아키텍처 규칙을 보고, 활성화하고, 비활성화하고, 삭제합니다.</block>
-  <block id="0a7f0abf34857702447ced5ee72899a5" category="paragraph">규칙 카탈로그는 모든 사용자 지정 규칙을 관리할 수 있는 곳입니다. 각 규칙의 세부 정보를 확인하고, 결과를 검토하고, 규칙을 켜거나 끌 수 있습니다.</block>
   <block id="d8bb2214730133a5475bf68bf933cdeb" category="section-title">규칙 카탈로그 보기</block>
   <block id="12dc6c12cd959eea202fab9d01a2ef04" category="paragraph">규칙 카탈로그에는 사용자가 생성한 모든 규칙, 해당 규칙의 상태, 일정 및 최신 결과가 표시됩니다.</block>
   <block id="dd5177b4ae0935729bdc02652d8232ff" category="list-text">메뉴 <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block>를 선택한 다음 *규칙 작성기*를 선택합니다.</block>
@@ -377,7 +367,6 @@
   <block id="b4b7ad5dbb1a5d746e0ac8936e3f4798" category="paragraph">이 시스템은 범위 내의 모든 리소스를 규칙 논리에 따라 평가합니다.</block>
   <block id="5cb57852939f164731c4f61fcca33dac" category="list-text">결과를 검토하여 현재 규정 준수 상태를 확인하십시오.</block>
   <block id="2cc894218e78a9699920859cc698e5d7" category="paragraph">테스트는 감사되어 규칙의 평가 이력에 표시됩니다.</block>
-  <block id="3d3e89f1bbb9f2c8f8d5468d18a725ec" category="section-title">실행 상태 이해</block>
   <block id="6e65a771efc9492475fe8b5aa7f1f7a1" category="paragraph">실행 상태는 규칙이 성공적으로 실행되었는지 여부를 보여줍니다.</block>
   <block id="30ae8fff8898dc197acd49d9c0797d20" category="list-text">성공</block>
   <block id="10d8136bef0db24840b317cf2cf9d542" category="list-text">관련 자료들을 모두 확인한 결과 오류는 발견되지 않았습니다.</block>
@@ -620,8 +609,6 @@
   <block id="01b307f0335162114b66a6190044c275" category="list-text">Google Cloud 계정에서 _보기, 계획 및 분석_ 권한을 부여합니다.</block>
   <block id="1341f195ac9799a77bdbba45d7cc551e" category="inline-link-macro">Google Cloud 계정에 권한을 부여하는 방법을 알아보십시오.</block>
   <block id="011c3ba35123b641365e7db9c488ccaa" category="paragraph"><block ref="011c3ba35123b641365e7db9c488ccaa" category="inline-link-macro-rx"></block></block>
-  <block id="9d1211cf0c0938352f5fc0c16d3f4f45" category="paragraph">Workload Factory는 스토리지 및 ONTAP 모범 사례와 Google Cloud Well-Architected Framework를 기준으로 스토리지 구성을 평가합니다. 또한 평가 결과에 따라 개선 사항을 권장합니다.</block>
-  <block id="6e1d527b580364f3697ae14e9ee87785" category="paragraph">잘 설계된 분석은 프레임워크의 다음 두 가지 핵심 요소인 _신뢰성_ 및 _운영 우수성_을 기준으로 구성을 분류합니다.</block>
   <block id="c5a88482771f220e57ee0ee1238fff02" category="paragraph">Workload Factory는 SSD 계층 사용률을 80% 이하로 유지할 것을 권장합니다. 일부 워크로드는 추가 용량 여유 공간이 필요하며 사용률 목표를 낮춰야 할 수 있습니다. 사용량이 권장 여유 공간을 초과하면 성능 저하 및 서비스 문제 발생 위험이 증가하며, 특히 용량을 제때 확장하지 않을 경우 더욱 그렇습니다. 하나 이상의 스토리지 풀에 대해 이 기능을 비활성화했다가 필요에 따라 나중에 다시 활성화할 수 있습니다.</block>
   <block id="7ac5667c1b90b6524fde9817118effea" category="paragraph">Workload Factory는 공간 부족 위험을 줄이기 위해 볼륨 사용량을 80% 미만으로 유지할 것을 권장합니다. 볼륨이 예상보다 빠르게 증가하는 경우 신속하게 확장해야 할 수 있습니다. 특히 갑작스럽거나 급격한 증가는 애플리케이션에 영향을 미칠 위험을 증가시킬 수 있습니다. 씬 프로비저닝 및 자동 용량 관리를 사용하면 이 위험이 줄어듭니다. 하나 이상의 볼륨에 대해 이 기능을 비활성화했다가 필요에 따라 나중에 다시 활성화할 수 있습니다.</block>
   <block id="f793fba5432b14d544dc9553f3dba075" category="inline-link-macro">잘 설계된 Google Cloud NetApp Volumes 구성을 구현합니다</block>
@@ -681,17 +668,6 @@
   <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다</block>
   <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">단일 볼륨의 경우 *수정*을 선택하고, 여러 볼륨의 경우 *보기 및 수정*을 선택하십시오. *보기 및 수정*을 선택한 경우 수정할 영향을 받는 볼륨을 선택하십시오.</block>
   <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">구성 분석을 통해 재활성화할 볼륨을 식별합니다.</block>
-  <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">Workload Factory는 스토리지 시스템 구성을 정기적으로 분석하여 구성 문제가 있는지 확인합니다. 문제가 발견되면 NetApp Console의 잘 설계된 대시보드에서 문제의 내용과 스토리지 시스템이 최상의 성능, 비용 효율성 및 모범 사례 준수를 달성할 수 있도록 변경해야 할 사항을 설명합니다.</block>
-  <block id="5d53284fb4850094d575eb9c0096fe4a" category="paragraph">NetApp은 구성 분석 인사이트 및 권장 사항을 통해 Google Cloud NetApp Volumes 스토리지 풀에 대한 모범 사례를 구현할 수 있도록 지원합니다. 아키텍처가 잘 설계되었는지 확인하고, 구성 관련 문제를 파악하고, 안정성, 보안, 효율성, 성능 및 비용 측면에서 최적화되지 않은 스토리지 풀의 아키텍처를 개선하기 위한 권장 사항을 받아볼 수 있습니다.</block>
-  <block id="fee7ee6c35710723ba710f440950ec24" category="paragraph">NetApp은 매일 Google Cloud NetApp Volumes 스토리지 풀 구성을 분석합니다. 일일 분석을 통해 아키텍처가 올바른 상태는 물론, 구성 문제를 이해하고 스토리지 풀이 모범 사례를 준수하도록 돕는 인사이트와 권장 사항을 제공합니다.</block>
-  <block id="58106dc77a145acb5b9f958b8c944c32" category="paragraph">링크 또는 콘솔 에이전트 연결을 통해 Workload Factory는 파일 시스템의 성능, 데이터 보호 및 구성 문제를 종합적으로 검사할 수 있습니다. 그 결과, Google Cloud NetApp Volumes 스토리지 풀을 최적화하기 위한 정확한 인사이트와 권장 사항을 받아볼 수 있습니다.</block>
-  <block id="0368421628656695faa02aba1e7fafc6" category="paragraph">일일 분석이 완료되면, well-architected 대시보드에 well-architected 리소스의 총 개수, 심각한 상태의 리소스 개수, 그리고 경고 상태의 리소스 개수가 표시됩니다. 구성은 well-architected 프레임워크의 핵심 요소인 신뢰성, 운영 우수성, 비용 최적화, 성능 효율성, 그리고 보안을 기준으로 분류됩니다. 대시보드에는 모든 구성을 나열하는 표도 포함되어 있습니다. 각 구성에 대해 표에는 다음 정보가 표시됩니다.</block>
-  <block id="1ea595e897db3a6c2ebf632b09f893a7" category="list-text">잘 설계된 상태</block>
-  <block id="88fc175a314d22757d9562f6ca85f39c" category="list-text">심각성</block>
-  <block id="80b1ec0e89bd7572cc1f804e7b6589d5" category="list-text">카테고리</block>
-  <block id="8c4ac5176555925ce14fd3b1be3c8cb1" category="list-text">리소스 유형(볼륨 또는 스토리지 풀)</block>
-  <block id="90965760f6e212d3c1adb1ae943da7b4" category="list-text">영향을 받는 리소스</block>
-  <block id="3b8bdf195417f71fd13dc074d454c9d1" category="list-text">구성이 최적화되지 않았을 때 권장 사항을 볼 수 있는 옵션</block>
   <block id="d1eb4860a9f8c5e03980d78b93e3c145" category="paragraph">선택적으로 <block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block>을 선택하여 모든 구성에 대한 권장 사항이 포함된 CSV 파일을 다운로드할 수 있습니다.</block>
   <block id="969bb8c9e1608f3c46000b160dbf8c50" category="paragraph">NetApp Workload Factory는 사용 중인 스토리지 유형에 맞는 아키텍처 프레임워크를 기반으로 안정적이고 안전하며 효율적이고 비용 효율적인 구성을 유지 관리하고 운영할 수 있도록 지원합니다. NetApp Console의 아키텍처 기반 대시보드는 계정 및 지역 전반에 걸쳐 통합된 보기를 제공하고, 팀이 위험을 식별하고 우선순위를 지정하도록 지원하며, 특정 요구 사항에 맞는 사용자 지정 규칙을 지원합니다. 스토리지 시스템 구성에 대한 자동 일일 검사를 통해 스토리지 환경을 최적화하는 데 도움이 되는 인사이트와 권장 사항을 제공합니다.</block>
   <block id="a081c06e09e507c759e7f4cce85691e2" category="paragraph">Workload Factory는 사용자의 구성을 매일 분석합니다. 이 분석을 통해 스토리지 환경을 최적화하는 데 도움이 되는 아키텍처 현황, 인사이트 및 권장 사항을 제공합니다.</block>
@@ -701,4 +677,41 @@
   <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">Cloud Volumes ONTAP와 연결된 Console 에이전트가 다음 엔드포인트에 액세스할 수 있는지 확인하십시오.</block>
   <block id="76a31cd6a7131cd21109cee81fd94902" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 또는 <block ref="1c85a9585130a3e66370d665193250bb" category="inline-link-macro-rx"></block> 파일 시스템과 NetApp Console 간의 연결을 설정합니다.</block>
   <block id="5be624540f07772a5d8aaac43ebbcfa8" category="list-text">파일 시스템 리소스에 대한 가장 포괄적인 분석을 위해서는 <block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block> 또는 <block ref="773b862b73888ba0f103d451af29397c" category="inline-link-macro-rx"></block>해야 합니다.</block>
+  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">Workload Factory에서 Flex Unified 리소스를 검색합니다.</block>
+  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory는 이제 ONTAP API 프록시 엔드포인트를 통해 Google Cloud NetApp Volumes Flex Unified 기본 모드 및 ONTAP 모드 스토리지 풀과 볼륨을 찾을 수 있습니다. 이러한 리소스는 인벤토리에 표시되며, 아키텍처 최적화 평가 및 권장 사항에 포함됩니다.</block>
+  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">Google Cloud NetApp Volumes의 구성 분석에 대해 알아보기</block>
+  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
+  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">NetApp Console Canvas에서 Flex Unified 시스템 입력</block>
+  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">이제 NetApp Console 캔버스에서 검색된 Google Cloud NetApp Volumes Flex Unified 시스템에 대해 *시스템 입력*을 선택할 수 있습니다. 그러면 선택한 시스템의 리소스 페이지가 열리고 기본 모드 시스템에서 사용 가능한 것과 동일한 워크플로를 사용하여 연결된 스토리지 풀 및 볼륨을 볼 수 있습니다.</block>
+  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Flex Unified 리소스에 대한 잘 설계된 평가</block>
+  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">잘 설계된 대시보드는 이제 Google Cloud NetApp Volumes Flex Unified 스토리지 풀 및 볼륨의 SSD 용량 여유 공간, 볼륨 용량 여유 공간 및 스냅샷 정책 적용 범위를 평가합니다. 결과는 Google Cloud NetApp Volumes 잘 설계된 환경에 표시되며 기본 모드 또는 ONTAP 모드의 리소스를 식별합니다.</block>
+  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">Google Cloud NetApp Volumes의 아키텍처 관련 문제에 대한 알림은 NetApp 콘솔의 스토리지 관리 시스템 페이지에서 확인할 수 있습니다. 이 기능을 통해 Google Cloud NetApp Volumes 시스템의 구성 문제를 신속하게 파악하고 알림에서 워크로드 아키텍처 대시보드로 이동할 수 있습니다.</block>
+  <block id="677aeb7441cfb06ed7138c57338cfd53" category="paragraph">규칙을 저장하거나 예약하기 전에 테스트를 실행하여 어떤 리소스에 영향을 미치는지 확인하십시오.</block>
+  <block id="cdac1db1869db85a5ed349854c63c6bf" category="paragraph">규칙을 검증한 후에는 초안으로 저장하거나 정기적으로 실행되도록 설정할 수 있습니다.</block>
+  <block id="9c85906f54c1b8a93d6470f07300ddfa" category="list-text">유효성 검사 후 일정을 잡지 않고 저장하려면 *초안으로 저장*을 선택합니다. 규칙은 저장되지만 일정을 예약하기 전까지는 평가되지 않습니다.</block>
+  <block id="e65512a782af7ef5675975930ca3bd4f" category="paragraph">NetApp Console의 잘 설계된 대시보드는 스토리지 시스템 설정을 정기적으로 점검하여 잠재적인 문제를 감지합니다. 문제가 발견되면 문제의 내용과 해결 방법을 안내하여 스토리지 시스템의 성능을 향상시키고 비용을 절감하며 Flex Unified Google Cloud NetApp Volumes 환경의 기본 모드와 ONTAP 모드 모두에서 모범 사례를 준수할 수 있도록 지원합니다.</block>
+  <block id="2801dcf3181a6f2a2f56bb01459e50a4" category="paragraph">Workload Factory는 스토리지 및 ONTAP 모범 사례와 Google Cloud Well-Architected Framework를 기준으로 스토리지 구성을 평가합니다. 또한 이 평가는 ONTAP API 프록시 엔드포인트를 통해 검색된 Google Cloud NetApp Volumes Default-mode 리소스와 Flex Unified 리소스에 대한 개선 사항을 권장합니다.</block>
+  <block id="8a5f3966b3513f7e2233e10a7facba12" category="paragraph">잘 설계된 분석은 프레임워크의 다음 두 가지 핵심 요소인 _신뢰성_ 및 _운영 우수성_을 기준으로 구성을 분류합니다. 평가 결과에는 _기본 모드_ 또는 _ONTAP 모드_ 값이 포함될 수 있습니다.</block>
+  <block id="4eb5fd24694777ef00d310821aaa6543" category="paragraph">구성 분석 인사이트 및 권장 사항을 활용하여 NetApp을 통해 Google Cloud 스토리지에서 실행되는 Google Cloud NetApp Volumes 스토리지 풀 및 볼륨에 대한 모범 사례를 구현하세요. 아키텍처가 잘 설계된 상태를 쉽게 검토하고, 구성 관련 문제를 파악하고, 안정성, 보안, 성능 및 비용 측면에서 최적화되지 않은 리소스의 아키텍처를 개선하기 위한 권장 사항을 받아볼 수 있습니다.</block>
+  <block id="9d5147b9cfa37007dd174357eb0032b3" category="paragraph">Google Cloud NetApp Volumes 스토리지 풀 및 볼륨 배포는 매일 분석됩니다. 일일 분석을 통해 아키텍처가 잘 구성된 상태와 함께 구성 문제를 이해하고 리소스가 모범 사례를 준수하도록 돕는 인사이트 및 권장 사항을 제공합니다.</block>
+  <block id="740099b5bc77c1731340e1bc44cb9c60" category="paragraph">일일 분석이 완료되면 대시보드에 아키텍처가 잘 설계된 리소스의 총 개수, 심각한 상태의 리소스 개수, 경고 상태의 리소스 개수가 표시됩니다. 구성은 아키텍처 프레임워크의 핵심 요소인 안정성, 운영 효율성, 비용 최적화, 성능 효율성, 보안을 기준으로 분류됩니다. 대시보드에는 모든 구성 목록, 각 구성의 아키텍처 상태, 심각도, 범주, 리소스 유형(볼륨 또는 스토리지 풀), 영향을 받는 리소스, 그리고 구성이 최적화되지 않은 경우 권장 사항을 볼 수 있는 옵션이 포함된 표도 제공됩니다. 여기에는 Default-mode와 ONTAP-mode가 모두 포함됩니다.</block>
+  <block id="ff5a2e898f3cd314dc92f7cfc32fde17" category="paragraph">Flex Unified 환경의 경우 권장 사항에는 스토리지 풀의 SSD 용량 여유 공간, 볼륨의 용량 여유 공간 및 볼륨에 대한 스냅샷 정책 적용 범위가 포함될 수 있습니다.</block>
+  <block id="007cc9547ae8884ad597cd92ba505422" category="list-text">심각성</block>
+  <block id="29f24526b8a15162c1cb976fa37f20d2" category="list-text">경고 또는 심각 등 규칙의 중요도 수준입니다.</block>
+  <block id="b6e0b0c90cfbddfe767f137f8066d1df" category="list-text">진행 중</block>
+  <block id="d4008ffe54f55490997ab0d5940aafb3" category="list-text">규칙 생성 또는 확인.</block>
+  <block id="b75ff201f3276decaffcefb7b216622f" category="list-text">생성에 실패했습니다</block>
+  <block id="81b502eadde262c25792a2be1e3b3626" category="list-text">규칙을 만들 수 없습니다.</block>
+  <block id="c4e6fec5ee0f22a348768aa087f15acb" category="list-text">저장되었지만 아직 일정이 잡히지 않았습니다.</block>
+  <block id="7401c14d073cd1188b475ef7f5e0cdc8" category="list-text">검증된 초안</block>
+  <block id="de28b803b960b2c037e1abe4d18cf9d7" category="list-text">유효성 검사를 통과했으며 저장하거나 예약할 수 있습니다.</block>
+  <block id="cf61937578a34d9f00c4f6dd6f175c05" category="list-text">활성화되어 있으며 정해진 일정에 따라 실행됩니다.</block>
+  <block id="ca7e0b16936fbee3bd2dd7f992b32b4d" category="list-text">일시 중지되었지만 삭제되지는 않았습니다. 다시 활성화할 수 있습니다.</block>
+  <block id="71e78f13c09017bc4b63f46243d379b7" category="list-text">영구적으로 제거되었습니다.</block>
+  <block id="756da7df6941fe78c43bd929d17f5b4c" category="paragraph">규칙 카탈로그는 모든 사용자 지정 규칙을 관리할 수 있는 단일 공간입니다. 규칙 세부 정보를 검토하고, 결과를 확인하고, 규칙을 일정에 따라 실행할지 여부를 제어할 수 있습니다.</block>
+  <block id="218354993137c1ab05ff800f7d8fc484" category="section-title">규칙 및 실행 상태 이해</block>
+  <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">규칙 카탈로그에는 규칙 상태와 실행 상태가 모두 표시됩니다.</block>
+  <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">규칙 상태</block>
+  <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*초안*은 규칙이 저장되었지만 아직 예약되지 않았음을 의미합니다. *진행 중*은 규칙이 생성되거나 유효성 검사를 받고 있음을 의미합니다. *예약됨*은 규칙이 활성화되어 예약된 시간에 실행됨을 의미합니다. *일시 중지됨*은 규칙이 카탈로그에 남아 있지만 실행되지 않음을 의미합니다. *생성 실패*는 규칙 생성이 완료되지 않았으며 저장하기 전에 채팅에서 업데이트해야 함을 의미합니다.</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
 </blocks>
