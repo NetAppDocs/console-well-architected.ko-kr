@@ -713,5 +713,5 @@
   <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">규칙 카탈로그에는 규칙 상태와 실행 상태가 모두 표시됩니다.</block>
   <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">규칙 상태</block>
   <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*초안*은 규칙이 저장되었지만 아직 예약되지 않았음을 의미합니다. *진행 중*은 규칙이 생성되거나 유효성 검사를 받고 있음을 의미합니다. *예약됨*은 규칙이 활성화되어 예약된 시간에 실행됨을 의미합니다. *일시 중지됨*은 규칙이 카탈로그에 남아 있지만 실행되지 않음을 의미합니다. *생성 실패*는 규칙 생성이 완료되지 않았으며 저장하기 전에 채팅에서 업데이트해야 함을 의미합니다.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026년 9월 27일</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026년 9월 30일</block>
 </blocks>
