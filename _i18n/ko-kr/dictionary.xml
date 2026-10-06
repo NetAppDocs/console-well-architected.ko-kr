@@ -18,14 +18,11 @@
   <block id="0e8e25fe832310f010ce2950b2110974" category="list-text">FSx for ONTAP 연결을 위한 링크 또는 에이전트가 구성되어 있습니다.</block>
   <block id="fadf874162a190084750a51220f07180" category="list-text">사용자 지정 규칙 생성에는 NetApp의 Bedrock AI 서비스가 사용된다는 점을 이해하고 계십니다.</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업 정보</block>
-  <block id="4a43e7c1c8d139e6a6dad318b5a9cefb" category="paragraph">규칙 생성 과정은 규칙 정의, AI의 해석 검토, 정기 평가 예약 전 결과 확인 등 단계별로 안내합니다. 모든 단계에서 사용자가 직접 제어할 수 있습니다. 시스템은 사용자의 요청에 따라 규칙을 제안하지만, 사용자가 승인하기 전까지는 아무 작업도 진행되지 않습니다.</block>
   <block id="536d32f8526dd0faea40f78af4cad034" category="section-title">규칙 만들기</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="dcafe9cce796ce855e87b270f0a5af59" category="inline-link-macro">콘솔 경험</block>
   <block id="e1e54933838bb7ba662301d01c937d2d" category="list-text">다음 중 하나를 사용하여 로그인하세요<block ref="68ceec76279c6913cdee16884c2d813a" category="inline-link-macro-rx"></block>.</block>
   <block id="e1cf2ece0db166d8b4c6b87f20794e11" category="inline-image-macro">햄버거 메뉴 아이콘</block>
-  <block id="fe994c2e65969f1befb57a29037e7317" category="list-text">메뉴 <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block>를 선택한 다음 *Well-architected*를 선택합니다.</block>
-  <block id="9e0430dcbcdaff60b125b83d5a4885ff" category="list-text">Well-architected 메뉴에서 *Rule builder*를 선택합니다.</block>
   <block id="3f87c61ee7c070ec896e14d55b132e25" category="paragraph">규칙 작성기를 열면 사용자 지정 규칙을 작성하는 데 도움이 되는 샘플 프롬프트가 표시됩니다. *프롬프트 복사*를 선택하면 샘플 프롬프트를 AI 대화 상자의 텍스트 상자에 복사할 수 있습니다.</block>
   <block id="ab99baf0da39867076eea6e470865275" category="list-text">*규칙 생성* 필드에 자연어로 규칙 설명을 입력하세요. 다음 사항을 최대한 구체적으로 설명해 주세요.</block>
   <block id="d8eefaf38d3f8455541df01bc5d6831b" category="list-text">확인 중인 리소스 유형(파일 시스템, 볼륨 또는 캐시)</block>
@@ -37,12 +34,7 @@
   <block id="15fc6fdd1dd9d66889237c7e8a75d290" category="paragraph">AI는 사용자의 입력 내용을 분석하여 규칙 정의를 생성합니다.</block>
   <block id="1c88936123899b4423b51efeb098f008" category="section-title">AI 해석을 검토합니다</block>
   <block id="28ea3f4811ef4cb7fc2b7f08d6fce5a7" category="paragraph">규칙 생성기에는 다음이 표시됩니다.</block>
-  <block id="ac95e11bdbe6b7951bc4176d753eecdb" category="list-text">*해석 결과*: AI가 사용자의 질문을 일반적인 언어로 어떻게 이해했는지 보여줍니다.</block>
-  <block id="7754266bb34a8d80acb7e15270b99ec3" category="list-text">*규칙 정의*: 리소스 유형, 조건 논리 및 평가 기준을 포함하는 구조화된 규칙입니다.</block>
-  <block id="7c2fe3e0d58f228cda5f45d633432f17" category="list-text">*추론*: AI가 사용자의 질문을 이렇게 해석한 이유.</block>
-  <block id="76aee06db0fa09e15fccb38736a4bcf7" category="list-text">*신뢰도 지표*: 시스템이 해석에 대해 얼마나 확신하는지를 나타냅니다.</block>
   <block id="f89784f298e9f6255c6acd2f32b4051a" category="list-text">해석 내용을 검토하여 의도한 바와 일치하는지 확인하십시오.</block>
-  <block id="c0a47630db46adfc611696cbc6259777" category="paragraph">규칙 정의가 올바른지 확인하십시오. 해석이 불분명하거나 잘못된 경우 시스템에서 다음과 같은 질문을 할 수 있습니다. * 어떤 리소스를 확인해야 합니까? * 어떤 값 또는 제한값이 규정 준수를 정의합니까? * 규칙은 얼마나 자주 실행되어야 합니까?</block>
   <block id="32e95e9677f9ef2f50e204cf4b6401d7" category="list-text">AI의 명확화 질문에 답변하세요.</block>
   <block id="7d84a0d9d14a5f050503a7b9b00b3435" category="paragraph">AI는 사용자의 요구 사항을 더 잘 이해하기 위해 여러 옵션 중에서 선택하도록 요청할 수 있습니다. 각 질문에 답변하고 *계속*을 선택하거나, 선택 사항인 질문을 건너뛰려면 *건너뛰기*를 선택하세요.</block>
   <block id="f7dd96479a94850934674d003fe54f52" category="list-text">모든 질문에 답변한 후 *계속*을 선택하여 규칙을 만드십시오.</block>
@@ -50,31 +42,9 @@
   <block id="e0924f9cecf28912d6b59208f0ee9242" category="list-text">*규칙 유효성 검사*를 선택합니다.</block>
   <block id="87d68b4e906936ea67c73d25fddbb199" category="paragraph">이 시스템은 범위 내의 모든 리소스를 사용자가 설정한 규칙 논리에 따라 평가합니다.</block>
   <block id="6ad0887ee719e958ea66bc1d5ca7ed60" category="list-text">검증 결과를 검토하십시오:</block>
-  <block id="0c1a6881568187ba2218c2798723b963" category="list-text">*평가된 리소스*: 확인된 리소스의 총 개수</block>
-  <block id="4b5e8fb3a43e71540bec48dd1195e60d" category="list-text">*Compliant*: 규칙 기준을 충족하는 리소스</block>
-  <block id="149dc40e624cd47605b5908752da1597" category="list-text">*기준 미준수*: 기준을 충족하지 않는 리소스</block>
-  <block id="222d82b8b5728640234e4566d39a549c" category="list-text">*평가 실패*: 평가할 수 없었던 리소스(오류 세부 정보 포함)</block>
-  <block id="6844f9bfd3027da2003f968152f2a47a" category="list-text">일부 리소스 평가에 실패한 경우 오류 원인을 검토하십시오.</block>
-  <block id="277990b13713bd5d1349cb0637866450" category="list-text">*AWS 자격 증명 오류*: 일부 리소스에 대한 읽기 전용 권한이 부족할 수 있습니다.</block>
-  <block id="1bb9a202a6c7284b2727618b6b42d1bf" category="list-text">*연결 오류*: 특정 파일 시스템에 대해 링크 또는 에이전트가 구성되지 않았을 수 있습니다.</block>
-  <block id="6601c2de36f9d2c2a63a21c9170e4bae" category="list-text">*ONTAP 권한 오류*: 뷰어 사용자에게 특정 리소스에 대한 접근 권한이 없을 수 있습니다.</block>
   <block id="24a910eeb4468fa91fa54136e064eb5d" category="section-title">규칙 저장 또는 예약</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행하십시오.</block>
-  <block id="8c080127194fcaf624649c3bab095baa" category="list-text">정기적인 평가를 예약하려면 평가 빈도(최소 1시간, 기본값 24시간)를 설정하고 *Schedule*을 선택하세요. 그러면 규칙이 활성화되어 설정된 일정에 따라 실행됩니다.</block>
-  <block id="f3448dd91675f24e9473969b2f303b47" category="list-text">규칙을 삭제하려면 *삭제*를 선택하여 규칙 생성을 취소하고 다시 시작하세요.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
-  <block id="8e89c0ba0d3b83aea36ecc1be4cfe4fb" category="paragraph">사용자 지정 규칙이 생성되어 규칙 카탈로그에 나열됩니다. 일정을 설정하면 지정된 빈도로 FSx for ONTAP 리소스를 확인합니다.</block>
-  <block id="231cf4c70d866b616c21baddaeed0696" category="section-title">문제 해결</block>
-  <block id="ad7ea03a306fd66841c171a6885f7b14" category="list-text">사용 가능한 파일 시스템이 없습니다.</block>
-  <block id="9f6cf15e71e56dca004ae4af5511fdc6" category="list-text">AWS 자격 증명을 설정하고 환경에 FSx for ONTAP 파일 시스템이 하나 이상 있는지 확인하십시오. 규칙 빌더는 규칙을 적용하기 위해 파일 시스템이 필요합니다.</block>
-  <block id="15a9422f3948ed951664141901f605d9" category="list-text">낮은 신뢰도 해석</block>
-  <block id="d901db1e2096f8ef858f5f7e7e04f829" category="list-text">추가 정보가 필요합니다. 질문에 답변하거나, 리소스 유형, 제한 사항 및 조건에 대한 명확한 세부 정보를 포함하여 프롬프트를 다시 작성해 주세요.</block>
-  <block id="ce332e562b5422b101c4ea54a309f0c9" category="list-text">부분 유효성 검사 실패</block>
-  <block id="a4bffcd84e8416b02d243a51aa82cb84" category="list-text">어떤 리소스에서 오류가 발생했는지, 그리고 그 원인이 무엇인지 확인하십시오. 일반적인 원인은 링크 누락, 에이전트 설정 오류, 또는 권한 부족입니다. 문제를 해결한 후 다시 검증하십시오.</block>
-  <block id="7720c57b7119d10e920558f513246c98" category="list-text">모호한 프롬프트</block>
-  <block id="57aa8a34f1c34817409a7bb0fcc62dde" category="list-text">확인하려는 내용을 더 구체적으로 명시하세요. 리소스 유형, 조건 및 임계값을 포함하십시오. 도움이 필요하면 프롬프트 예시를 참조하세요.</block>
-  <block id="319de2ebfe72521f2551d5fa11e01fd5" category="list-text">규칙은 여러 리소스 유형을 대상으로 합니다</block>
-  <block id="9614a11d3defd26388181526016cb85d" category="list-text">리소스 유형별로 별도의 규칙을 생성하세요. 규칙당 하나의 리소스 유형만 지원됩니다.</block>
   <block id="3f710cadb0123c693533da68aaf5b596" category="section-title">다음 단계</block>
   <block id="79d32aa7b3e52f3c6db178577378b427" category="inline-link-macro">사용자 지정 규칙 관리</block>
   <block id="f571cd95e32f7c421382198bc0dd0eae" category="paragraph"><block ref="f571cd95e32f7c421382198bc0dd0eae" category="inline-link-macro-rx"></block></block>
@@ -249,65 +219,28 @@
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*케이스 종결*: 케이스를 종결하는 이유에 대한 세부 정보를 입력하고 *케이스 종결*을 선택하십시오.</block>
   <block id="05becc6908f11b950a10c1285ad8e610" category="summary">NetApp 모범 사례와 함께 조직 표준을 준수하기 위해 자체 아키텍처 규칙을 정의하고 관리하는 방법을 알아보세요.</block>
   <block id="4bd4792ab17b2dfaf1c72610c348727b" category="doc">사용자 지정 규칙에 대해 알아보기</block>
-  <block id="b01cf57846bbc28ff99c21c4bc5bf95e" category="paragraph">사용자 지정 규칙을 사용하면 Well-architected 대시보드에서 NetApp 모범 사례와 함께 자체 아키텍처 표준을 설정, 확인 및 적용할 수 있습니다.</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">개요</block>
-  <block id="1bf27748c4595ac68f24c9ca81ac41bf" category="paragraph">규칙 작성기를 사용하면 일반적인 언어로 사용자 지정 모범 사례 규칙을 만들 수 있습니다. 이러한 규칙은 모든 리소스에 대해 검사됩니다.</block>
-  <block id="a14942c110e79e05bc4f2c080b767a9b" category="paragraph">사용자 지정 규칙을 사용하면 일반적인 공급업체 규칙으로는 충분히 다룰 수 없는 조직의 표준, 위험 한도 및 운영 요구 사항을 시행할 수 있습니다.</block>
   <block id="2d5a2d8915799663f0b12f296909b0d7" category="section-title">사용자 지정 규칙 작동 방식</block>
-  <block id="d269a3644b7db5fd4dd7893dafcb7c46" category="paragraph">사용자 지정 규칙은 AI 기반 프로세스를 사용하여 일반 언어로 작성된 지침을 명확하고 구조화된 규칙으로 변환합니다. AI는 번역가 및 검토자 역할을 합니다. 규칙을 제안하고 요청을 어떻게 이해했는지 설명한 다음, 규칙을 저장하거나 예약하기 전에 사용자의 승인을 요청합니다.</block>
-  <block id="2798be4150461330610447e77c4b94bc" category="paragraph">이 과정은 다음을 보장합니다.</block>
-  <block id="878df2e7c1f458ab6c7a2aa10a79a91d" category="list-text">규칙 논리는 명확하게 정의되어 있으며 오류 검사를 거칩니다.</block>
-  <block id="2de539a5ac80425a29aa3efc4546d6bd" category="list-text">자유 형식 코드는 실행되지 않습니다.</block>
-  <block id="a279bdea3d93ab7f5ebfed278530b951" category="list-text">규칙을 승인하기 전에 어떤 항목이 평가될지 정확히 확인할 수 있습니다.</block>
   <block id="aa5bf59269969e22f1e91f0116790d69" category="paragraph">사용자 지정 규칙을 만들고 실행하기 전에 다음 사항을 확인하십시오.</block>
   <block id="2c4eed705dd3e0adf6e7194858d8dff7" category="list-text">AWS 자격 증명</block>
   <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">Workload Factory에 AWS 자격 증명 추가</block>
   <block id="5eb43201405d6bbeac74bcd01d61e2e1" category="list-text">AWS 환경에 대한 읽기 전용 액세스 권한입니다. 사용자 지정 규칙은 보안 경계로 읽기 전용 권한을 요구합니다. <block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block>.</block>
   <block id="823a6e1d7fe661be55dd3af05f972b11" category="list-text">ONTAP 자격 증명</block>
-  <block id="04c426fb5f8d53f66e745f5d734630b8" category="list-text">읽기 전용 권한이 있는 FSx 뷰어 사용자입니다. Workload Factory는 필요한 권한을 부여하여 이 사용자를 자동으로 생성합니다.</block>
   <block id="04d1424a4b58f665f6537d166f4f9750" category="list-text">링크 또는 에이전트</block>
   <block id="b68341d527b58582cc7cb537c3230cd8" category="inline-link-macro">링크를 사용하여 FSx for ONTAP 파일 시스템에 연결합니다.</block>
-  <block id="107d37bd55f8a2cfafec7c7fddaafe0d" category="list-text">규칙 평가 시 FSx 파일 시스템에 연결하는 데 필요합니다. <block ref="4c7cc50e5133efc728aaa88011208eda" category="inline-link-macro-rx"></block>.</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
-  <block id="1c3732fbe04e93a2e86e149b248e9fd0" category="paragraph">사용자 지정 규칙에는 다음과 같은 제한 사항이 적용됩니다.</block>
-  <block id="f49daa2f924ab7cc9649449db3950201" category="list-text">자동 수정 기능은 제공되지 않습니다. 제공된 지침을 사용하여 규정을 준수하지 않는 리소스를 직접 수정해야 합니다.</block>
-  <block id="7c7854f0cd9e8cf85ade395e732f419d" category="list-text">각 규칙은 한 가지 유형의 리소스만 확인할 수 있습니다. 여러 유형의 리소스를 확인하려면 별도의 규칙을 만드세요.</block>
-  <block id="a2dac8d044c9463b44de62bfef46ffc3" category="list-text">과도한 스캔을 방지하기 위해 최소 평가 간격은 1시간입니다.</block>
-  <block id="fa79d87dc9bd4ce86b2fe88eb0b009f8" category="list-text">규칙은 읽기 전용 액세스 권한을 가지며 환경을 변경할 수 없습니다.</block>
-  <block id="da7a7207ece80c733dd995304be2e71b" category="section-title">규칙 정의 모델</block>
-  <block id="bac8c4aaf2611263b9e58729fcd77b06" category="paragraph">각 사용자 지정 규칙은 다음과 같은 구성 요소로 이루어져 있습니다.</block>
-  <block id="a4257b70dd090b12a16890a8df21a097" category="list-text">규칙 이름</block>
-  <block id="c183586d821a9b142dd656b18e6abd05" category="list-text">규칙에 대한 사용자 정의 이름입니다.</block>
-  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="list-text">설명</block>
-  <block id="33d8c05440f61966e844b1f1f9bdfdbc" category="list-text">이 규칙이 조직에 중요한 이유에 대한 근거입니다.</block>
-  <block id="53a002434dc37d0a5f8e2aac58da6296" category="list-text">리소스 유형</block>
-  <block id="34b13a905e7f65d5c27af25f75b92e1a" category="list-text">평가할 FSx 리소스(파일 시스템, 볼륨 또는 캐시). 현재 규칙당 하나의 리소스 유형만 허용됩니다.</block>
-  <block id="ffaac1794c6af94dc7e1b21a4c194523" category="list-text">스케줄러</block>
-  <block id="7689948dd9ffc86e8e4279d74f40440a" category="list-text">규칙이 평가되는 빈도(최소 1시간, 기본값 24시간).</block>
-  <block id="eef94a037f518dee839a80817e6c370d" category="list-text">조건 논리</block>
-  <block id="3ec042014c07c06e08f1132a2736a67b" category="list-text">확인해야 할 구체적인 기준.</block>
-  <block id="69971bc4f2fcec5885c890771737ab96" category="list-text">평가 범위</block>
-  <block id="f9352c661007f5c20648b8667e3e2c2e" category="list-text">평가 대상 리소스(범위 내 모든 해당 리소스).</block>
-  <block id="383f1fcec1ec1cc242da70cbe9e75353" category="list-text">교정 논리</block>
-  <block id="fa89a084a4db5e99f8289cf816f86093" category="list-text">규정을 준수하지 않는 리소스를 처리하기 위한 수동 지침입니다.</block>
   <block id="3414a9edc41238183f8bcc3192e49adf" category="section-title">규칙 수명 주기</block>
   <block id="990ef24c1b7e8a2bf1d9ad948d75e88c" category="paragraph">사용자 지정 규칙은 다음 단계를 거쳐 진행됩니다.</block>
   <block id="f03ab16cd58372c77ba45a3d9a5a1cb9" category="list-text">초안</block>
-  <block id="9c039c6e29eb59991bbe3702d2de1aed" category="list-text">예약됨(활성화됨)</block>
   <block id="b9f5c797ebbf55adccdd8539a65a0241" category="list-text">비활성화됨</block>
   <block id="5fe6005bf6e415c950c011fb65f12b8f" category="list-text">삭제됨</block>
   <block id="2090e30be5c37fb6b5aa40aa26a83dea" category="section-title">사용자 지정 규칙 예시</block>
-  <block id="d272586227e521ec436cb6d107bc72ba" category="paragraph">다음 예시는 일반적인 사용자 지정 규칙을 보여줍니다.</block>
-  <block id="ee7f53b205e43e7a5017510113ca16f8" category="list-text">*프로덕션 볼륨 보호*</block>
   <block id="31ba253c12166670e96f9fc69476b594" category="list-text">"'Prod' 태그가 있는 모든 볼륨에는 스냅샷 정책이 설치되어 있어야 합니다."</block>
   <block id="6136cd3669246561542587bb4d5eac4c" category="paragraph">이 규칙은 회사 요구 사항에 따라 프로덕션 볼륨을 보호하기 위해 자동으로 스냅샷을 생성합니다.</block>
-  <block id="d806e9e618419f7699287ac2bf68844c" category="list-text">*아카이브 볼륨 계층화*</block>
   <block id="654b13cdd2897fd4260df3602f80ebbf" category="list-text">"'Archive' 태그가 있는 모든 볼륨에는 계층화 정책이 'All'로 설정되어야 합니다."</block>
   <block id="3756e2c2d7cd023d9845fbb763b174a9" category="paragraph">이 규칙은 보관된 데이터를 더 저렴한 스토리지로 자동으로 이동하여 비용을 절감합니다.</block>
-  <block id="e3ea153fbcf2ab9a530ac273d13d87b1" category="list-text">*파일 시스템 명명 규칙*</block>
   <block id="269acf14c942e18c7f92dabf12bccaf5" category="list-text">"모든 파일 시스템은 명명 규칙 'fsx-{environment}-{application}'을 따라야 합니다."</block>
   <block id="bf0fa31d0a55270b5b0783d82f5a26b2" category="paragraph">이 규칙은 파일 시스템이 조직의 명명 규칙을 준수하여 관리 및 비용 할당을 용이하게 하는지 검증합니다.</block>
-  <block id="385442535e80145b437f6d2ceb94114a" category="paragraph"><block ref="385442535e80145b437f6d2ceb94114a" category="inline-link-macro-rx"></block></block>
   <block id="353f1c67bf11f23b2da8c213a9bc70b5" category="doc">NetApp Console의 well-architected 대시보드에 대해 알아보십시오</block>
   <block id="9ffdb95250e26c7a6b468126ac7c75b0" category="section-title">작동 방식</block>
   <block id="ee25e0b6cd574166f206b4c5b7f02df3" category="section-title">중요한 이유</block>
@@ -339,7 +272,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">고지 파일에는 NetApp 소프트웨어에 사용된 타사 저작권 및 라이선스에 대한 정보가 포함되어 있습니다.</block>
-  <block id="2f7453885ba13ef684e6cd780fb74164" category="summary">규칙 카탈로그에서 사용자 지정 아키텍처 규칙을 보고, 활성화하고, 비활성화하고, 삭제합니다.</block>
   <block id="d8bb2214730133a5475bf68bf933cdeb" category="section-title">규칙 카탈로그 보기</block>
   <block id="12dc6c12cd959eea202fab9d01a2ef04" category="paragraph">규칙 카탈로그에는 사용자가 생성한 모든 규칙, 해당 규칙의 상태, 일정 및 최신 결과가 표시됩니다.</block>
   <block id="dd5177b4ae0935729bdc02652d8232ff" category="list-text">메뉴 <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block>를 선택한 다음 *규칙 작성기*를 선택합니다.</block>
@@ -367,16 +299,6 @@
   <block id="b4b7ad5dbb1a5d746e0ac8936e3f4798" category="paragraph">이 시스템은 범위 내의 모든 리소스를 규칙 논리에 따라 평가합니다.</block>
   <block id="5cb57852939f164731c4f61fcca33dac" category="list-text">결과를 검토하여 현재 규정 준수 상태를 확인하십시오.</block>
   <block id="2cc894218e78a9699920859cc698e5d7" category="paragraph">테스트는 감사되어 규칙의 평가 이력에 표시됩니다.</block>
-  <block id="6e65a771efc9492475fe8b5aa7f1f7a1" category="paragraph">실행 상태는 규칙이 성공적으로 실행되었는지 여부를 보여줍니다.</block>
-  <block id="30ae8fff8898dc197acd49d9c0797d20" category="list-text">성공</block>
-  <block id="10d8136bef0db24840b317cf2cf9d542" category="list-text">관련 자료들을 모두 확인한 결과 오류는 발견되지 않았습니다.</block>
-  <block id="bb74643cf41a9f5f9875f1477c085385" category="list-text">부분적으로 성공적임</block>
-  <block id="36f74efd2e347d1422c804a6b796dee1" category="list-text">일부 리소스는 성공적으로 확인되었지만, 다른 리소스는 실패했습니다. 확인하지 못한 리소스에 대해서는 오류 세부 정보를 확인하세요.</block>
-  <block id="d7c8c85bf79bbe1b7188497c32c3b0ca" category="list-text">실패</block>
-  <block id="729ff93b396b672d12011be075fa41c4" category="list-text">평가가 완료되지 않았습니다. 일반적인 원인으로는 AWS 자격 증명 오류, 네트워크 연결 문제 또는 ONTAP 권한 문제가 있습니다.</block>
-  <block id="78c94c654440e39e298ee7b003ea0c22" category="paragraph">규칙이 계속 실패하거나 부분적으로만 성공하는 경우 다음 사항을 확인하십시오.</block>
-  <block id="aa6ee29156e1ff679f21f8af41a72ab7" category="list-text">AWS 자격 증명은 모든 리소스에 대해 읽기 전용 액세스 권한만 갖습니다.</block>
-  <block id="83391d1cdfce4d8cbed45dc698dedc6e" category="list-text">FSx for ONTAP 뷰어 사용자는 적절한 권한을 보유하고 있습니다.</block>
   <block id="cc04bd1e4cca8a5b4e87672f588bf490" category="paragraph"><block ref="cc04bd1e4cca8a5b4e87672f588bf490" category="inline-link-macro-rx"></block></block>
   <block id="df3d826b639dd614f0fae940d9ebee78" category="summary">NetApp 기술 지원으로 지원 케이스를 열기 전에 NetApp Console에 NetApp Support Site 계정을 추가하고 지원을 등록해야 합니다.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원 등록</block>
@@ -574,7 +496,6 @@
   <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">나중에 해제된 구성을 포함하려면 잘 설계된 대시보드에서 다시 활성화할 수 있습니다. 이렇게 하면 구성이 분석에 복원되어 권장 사항 및 수정 사항을 확인할 수 있습니다.</block>
   <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="21b694dc2503eab08ab245a8bcfe9f1c" category="inline-link-macro">AI 관리에 대해 알아보기</block>
-  <block id="b1e856d73a7bddeb40cc57002b01ea2b" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 메시지가 표시되며 사용자 지정 규칙을 만들 수 없습니다. 관리자에게 문의하거나 <block ref="a4efb9d0168cfdc15063741b91ed0040" category="inline-link-macro-rx"></block>.</block>
   <block id="e1571d44d672c7a35fe7952a28f414b7" category="paragraph">SSD 스토리지 계층의 사용률은 80%를 초과해서는 안 됩니다. 이는 용량 풀 스토리지 계층의 데이터 읽기 및 쓰기 작업에 영향을 미치고 시스템의 처리량 용량에 악영향을 줄 수 있습니다. 용량이 부족해지면 데이터 볼륨은 읽기 전용이 됩니다. 새 데이터를 쓰려는 서비스도 실패합니다.</block>
   <block id="70a83d0e2246f9bf751ee82d9d86782a" category="paragraph">볼륨 용량 사용률이 80%를 초과하지 않도록 권장합니다. 이는 애플리케이션의 데이터 읽기 및 쓰기에 영향을 미칠 수 있습니다. 볼륨 용량 증가는 수동 또는 볼륨 자동 확장 기능을 사용하여 자동으로 수행할 수 있습니다.</block>
   <block id="fce6ac16b523a1ae826c8b02fe97af9a" category="paragraph">최적의 성능을 위해 워크로드에 가장 적합한 FlexCache 쓰기 모드를 사용하는 것이 좋습니다. 쓰기 우회 모드는 작은 파일을 사용하는 읽기 중심 워크로드에서 더 나은 성능을 제공하며, 쓰기 백 모드는 큰 파일을 사용하는 쓰기 중심 워크로드에서 더 나은 성능을 제공합니다.</block>
@@ -589,9 +510,7 @@
   <block id="1ba6be935ab946465d05505a4c53e7a7" category="paragraph">Cloud Volumes ONTAP 시스템에 대해 해제된 구성 분석을 언제든지 다시 활성화할 수 있습니다. 하나 이상의 구성을 선택하여 다시 활성화할 수 있습니다.</block>
   <block id="77b9268ed80b17f39e2b280a439b5a22" category="paragraph">시스템이 구성 분석을 다시 시작합니다. 새로운 분석은 매일 수행됩니다.</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">AI 기능 관리에 대해 알아보기</block>
-  <block id="e3be61076fdf378fb58cb7d809332294" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 규칙 작성기를 사용할 수 없으며 사용자 지정 규칙을 만들 수 없습니다. <block ref="0d265466472513eb45c1ef2960b8028d" category="inline-link-macro-rx"></block>.</block>
   <block id="13b595cf2341f5678ff3130cc1287485" category="paragraph">일부 항목에 대한 검사가 실패한 경우 오류 메시지를 읽고 원인을 확인하세요. 일반적인 원인으로는 연결 문제, 권한 부족 또는 링크 설정 실패 등이 있습니다.</block>
-  <block id="a95c691058f1f67702ea9a0cde5efa02" category="list-text">Link 및 Console 에이전트는 범위 내 모든 파일 시스템에 대해 구성됩니다.</block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026년 8월 3일</block>
   <block id="8215457eb88ef1fb110b79579b908e3d" category="paragraph">사용자 환경에 적용되지 않는 구성에 대한 분석은 제외할 수 있습니다. 이렇게 하면 불필요한 알림과 부정확한 최적화 결과를 방지할 수 있습니다.</block>
   <block id="821af7226458ea25572e88e8ab2026e4" category="paragraph">또한 일반 언어로 사용자 지정 규칙을 만들어 조직 표준 및 NetApp 모범 사례에 따라 환경의 유효성을 검사할 수 있습니다. 모의 실행을 통해 규칙을 테스트한 다음, 모든 환경에서 실행되도록 예약할 수 있습니다. <block ref="ce039b478eb432b675a03c04866f31ab" category="inline-link-macro-rx"></block>.</block>
@@ -696,22 +615,82 @@
   <block id="9d5147b9cfa37007dd174357eb0032b3" category="paragraph">Google Cloud NetApp Volumes 스토리지 풀 및 볼륨 배포는 매일 분석됩니다. 일일 분석을 통해 아키텍처가 잘 구성된 상태와 함께 구성 문제를 이해하고 리소스가 모범 사례를 준수하도록 돕는 인사이트 및 권장 사항을 제공합니다.</block>
   <block id="740099b5bc77c1731340e1bc44cb9c60" category="paragraph">일일 분석이 완료되면 대시보드에 아키텍처가 잘 설계된 리소스의 총 개수, 심각한 상태의 리소스 개수, 경고 상태의 리소스 개수가 표시됩니다. 구성은 아키텍처 프레임워크의 핵심 요소인 안정성, 운영 효율성, 비용 최적화, 성능 효율성, 보안을 기준으로 분류됩니다. 대시보드에는 모든 구성 목록, 각 구성의 아키텍처 상태, 심각도, 범주, 리소스 유형(볼륨 또는 스토리지 풀), 영향을 받는 리소스, 그리고 구성이 최적화되지 않은 경우 권장 사항을 볼 수 있는 옵션이 포함된 표도 제공됩니다. 여기에는 Default-mode와 ONTAP-mode가 모두 포함됩니다.</block>
   <block id="ff5a2e898f3cd314dc92f7cfc32fde17" category="paragraph">Flex Unified 환경의 경우 권장 사항에는 스토리지 풀의 SSD 용량 여유 공간, 볼륨의 용량 여유 공간 및 볼륨에 대한 스냅샷 정책 적용 범위가 포함될 수 있습니다.</block>
-  <block id="007cc9547ae8884ad597cd92ba505422" category="list-text">심각성</block>
-  <block id="29f24526b8a15162c1cb976fa37f20d2" category="list-text">경고 또는 심각 등 규칙의 중요도 수준입니다.</block>
   <block id="b6e0b0c90cfbddfe767f137f8066d1df" category="list-text">진행 중</block>
   <block id="d4008ffe54f55490997ab0d5940aafb3" category="list-text">규칙 생성 또는 확인.</block>
   <block id="b75ff201f3276decaffcefb7b216622f" category="list-text">생성에 실패했습니다</block>
-  <block id="81b502eadde262c25792a2be1e3b3626" category="list-text">규칙을 만들 수 없습니다.</block>
   <block id="c4e6fec5ee0f22a348768aa087f15acb" category="list-text">저장되었지만 아직 일정이 잡히지 않았습니다.</block>
   <block id="7401c14d073cd1188b475ef7f5e0cdc8" category="list-text">검증된 초안</block>
   <block id="de28b803b960b2c037e1abe4d18cf9d7" category="list-text">유효성 검사를 통과했으며 저장하거나 예약할 수 있습니다.</block>
   <block id="cf61937578a34d9f00c4f6dd6f175c05" category="list-text">활성화되어 있으며 정해진 일정에 따라 실행됩니다.</block>
   <block id="ca7e0b16936fbee3bd2dd7f992b32b4d" category="list-text">일시 중지되었지만 삭제되지는 않았습니다. 다시 활성화할 수 있습니다.</block>
   <block id="71e78f13c09017bc4b63f46243d379b7" category="list-text">영구적으로 제거되었습니다.</block>
-  <block id="756da7df6941fe78c43bd929d17f5b4c" category="paragraph">규칙 카탈로그는 모든 사용자 지정 규칙을 관리할 수 있는 단일 공간입니다. 규칙 세부 정보를 검토하고, 결과를 확인하고, 규칙을 일정에 따라 실행할지 여부를 제어할 수 있습니다.</block>
-  <block id="218354993137c1ab05ff800f7d8fc484" category="section-title">규칙 및 실행 상태 이해</block>
-  <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">규칙 카탈로그에는 규칙 상태와 실행 상태가 모두 표시됩니다.</block>
-  <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">규칙 상태</block>
-  <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*초안*은 규칙이 저장되었지만 아직 예약되지 않았음을 의미합니다. *진행 중*은 규칙이 생성되거나 유효성 검사를 받고 있음을 의미합니다. *예약됨*은 규칙이 활성화되어 예약된 시간에 실행됨을 의미합니다. *일시 중지됨*은 규칙이 카탈로그에 남아 있지만 실행되지 않음을 의미합니다. *생성 실패*는 규칙 생성이 완료되지 않았으며 저장하기 전에 채팅에서 업데이트해야 함을 의미합니다.</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026년 9월 30일</block>
+  <block id="e7747671a3237b3e54edff6b14b82ec7" category="doc">사용자 지정 규칙 편집 및 관리</block>
+  <block id="9a28538fc6f24d40e290259e6e4618ef" category="paragraph">이제 규칙 카탈로그에서 사용자 지정 규칙을 편집할 수 있습니다. 규칙 이름과 설정을 업데이트하고, 채팅에서 변경 사항을 확인하고, 편집 내용을 검증하고, 더 이상 필요하지 않은 규칙을 삭제할 수 있습니다.</block>
+  <block id="7df807bf87ff5ba814d9683805deb113" category="inline-link-macro">사용자 지정 규칙을 관리하는 방법을 알아보십시오</block>
+  <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
+  <block id="4995e76cedbca110dbb7cefe85e61d77" category="paragraph">규칙 설정 과정은 규칙 생성, AI가 규칙을 어떻게 이해했는지 검토, 정기 검토 예약 전 결과 확인 등 각 단계를 안내합니다. 모든 과정에서 사용자가 직접 제어할 수 있습니다. 시스템은 사용자의 프롬프트에 따라 규칙을 제안하지만, 사용자가 승인하기 전까지는 아무런 작업도 진행되지 않습니다.</block>
+  <block id="e6f6a0656ad8902d45e6575f152e03c9" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 메시지가 표시되며 사용자 지정 규칙을 만들거나 편집할 수 없습니다. 관리자 또는 <block ref="a4efb9d0168cfdc15063741b91ed0040" category="inline-link-macro-rx"></block>에 문의하십시오.</block>
+  <block id="3fdd960e8d3da26426b96f814aecdaad" category="list-text">메뉴 <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block>를 선택한 다음 Well-architected를 선택합니다.</block>
+  <block id="e2fae3aff985e265730325e9217c8eb5" category="list-text">Well-architected 메뉴에서 Rule builder를 선택합니다.</block>
+  <block id="0cd216375fd6782b45d9f84efb6f3e84" category="list-text">구문 분석된 해석</block>
+  <block id="9d009657b96c5aad9fa21f1828b73bcf" category="list-text">AI가 사용자의 프롬프트를 쉬운 언어로 이해한 방식.</block>
+  <block id="e35d59c335e26445eed5e3cf4fc88047" category="list-text">규칙 정의</block>
+  <block id="69dc0eb643b0cd391da1782b1c0156e4" category="list-text">리소스 유형, 조건 논리 및 평가 기준을 포함하는 구조화된 규칙입니다.</block>
+  <block id="87a222577e9c7b7a0739d92337f4fe46" category="list-text">추론</block>
+  <block id="22e3f2781979bb9f2227381c2a3c30ea" category="list-text">AI가 프롬프트를 이렇게 해석한 이유.</block>
+  <block id="6e536680660f9f562a1a4ab7cdbba4e1" category="list-text">신뢰도 지표</block>
+  <block id="0f1a4e7b1fc79efcfb93a1a4b715f3d0" category="list-text">시스템이 해석에 대해 얼마나 확신하는지.</block>
+  <block id="1a5f54a69b5adde0f81c2cf7d6675df3" category="list-text">규칙 정의가 올바른지 확인하십시오. 해석이 불분명하거나 잘못된 경우 시스템에서 다음과 같은 질문 등을 할 수 있습니다:</block>
+  <block id="1f3c02b25897cff55c5d7894bed5c157" category="list-text">어떤 리소스를 확인해야 합니까?</block>
+  <block id="2d351367dd00ae9228b6503d57500015" category="list-text">규정 준수를 정의하는 값 또는 한계는 무엇입니까?</block>
+  <block id="d24a425ef6891cb0134794ec6897a668" category="list-text">규칙은 얼마나 자주 실행되어야 합니까?</block>
+  <block id="31d7cb3d933c56805e03dca75c02893d" category="list-text">평가된 리소스: 확인된 리소스의 총 개수</block>
+  <block id="c3e6edb3feeaf77e1989872831656640" category="list-text">규정 준수: 규칙 기준을 충족하는 리소스</block>
+  <block id="00d56e696324ec288953d4f8b2cfec0f" category="list-text">규정 미준수: 기준을 충족하지 않는 리소스</block>
+  <block id="bd86697cf08c2fc5775c698f872f3628" category="list-text">평가 실패: 평가할 수 없었던 리소스(오류 세부 정보 포함)</block>
+  <block id="39a7241c7fb2f38f3a304dc5a7ddd33e" category="list-text">정기적인 평가를 예약하려면 평가 빈도를 설정하고 *예약*을 선택하십시오. 규칙이 활성화되고 정의된 일정에 따라 실행됩니다.</block>
+  <block id="4a5aaf656967e8a439bf519ae6b59880" category="list-text">규칙을 삭제하려면 *삭제*를 선택합니다.</block>
+  <block id="ac896c02d18100750fc4d290b272e808" category="paragraph">사용자 지정 규칙이 생성되어 규칙 카탈로그에 나열됩니다. 일정을 설정하면 지정된 빈도로 FSx for ONTAP 리소스를 확인합니다. 나중에 규칙을 편집하는 경우, 업데이트된 버전을 저장하기 전에 시스템에서 채팅, 검토, 승인, 유효성 검사 등 동일한 단계를 안내합니다.</block>
+  <block id="0ef70b60892b97d12c2eebf7686872ca" category="paragraph">사용자 지정 규칙을 사용하면 잘 설계된 대시보드에서 NetApp 모범 사례와 함께 자체 아키텍처 표준을 설정, 확인 및 적용할 수 있습니다.</block>
+  <block id="91b90f08c0d07c5aa66b502a1d12c868" category="paragraph">규칙 작성기를 사용하면 일반 언어로 사용자 지정 규칙을 만들 수 있습니다. 이러한 규칙은 모든 리소스에 대해 검사됩니다. 사용자 지정 규칙을 통해 기본 규칙에서 다루지 못할 수 있는 조직의 표준, 위험 한도 및 운영 요구 사항을 적용할 수 있습니다.</block>
+  <block id="01b363e0fd4d8a4ccc9789787974b41d" category="admonition">계정 관리자가 AI 기능을 비활성화한 경우 새 규칙을 만들거나 기존 규칙을 수정할 수 없습니다. 이미 예약된 규칙은 계속 실행됩니다. <block ref="0d265466472513eb45c1ef2960b8028d" category="inline-link-macro-rx"></block>.</block>
+  <block id="4edc72502b9f9929e41bae938a7490c1" category="paragraph">사용자 지정 규칙은 AI를 사용하여 일반 언어로 된 지침을 명확하고 구조화된 규칙으로 변환합니다. AI는 사용자의 요청을 번역하고, 규칙을 제안하고, 지침을 어떻게 이해했는지 설명하고, 규칙을 저장하거나 예약하기 전에 승인을 요청합니다. 이 프로세스를 통해 다음과 같은 사항을 보장할 수 있습니다.</block>
+  <block id="0465277e228b6cf7f37c1fab3872f9cd" category="list-text">규칙은 명확하게 정의되어 있으며 오류 여부를 검사합니다</block>
+  <block id="f2b92cb195f44b1f57205f66b9c1c992" category="list-text">사용자 정의 코드는 실행되지 않습니다</block>
+  <block id="f6b50ace5a7da2eb893c9a1a1c3971be" category="list-text">규칙을 승인하기 전에 정확히 어떤 항목이 평가될지 검토할 수 있습니다.</block>
+  <block id="110a917dc178ad706edce62d767a4196" category="list-text">각 사용자 지정 규칙에는 평가할 리소스 유형, 조건 논리, 심각도, 평가 일정 및 해결 지침이 포함됩니다.</block>
+  <block id="559e5220d6130b1d9f3af60fa24ff138" category="list-text">읽기 전용 권한을 가진 FSx 뷰어 사용자입니다. Workload Factory는 읽기 전용 사용자가 없는 경우 각 FSx for ONTAP 파일 시스템에 해당 사용자를 생성하여 평가를 수행할 수 있도록 합니다.</block>
+  <block id="d358f748048c3fa0487b8cd6d6410fb2" category="list-text">AWS API에서 접근할 수 없는 설정을 확인하기 위해 ONTAP에 직접 연결해야 하는 규칙에만 필요합니다. <block ref="4c7cc50e5133efc728aaa88011208eda" category="inline-link-macro-rx"></block>.</block>
+  <block id="00d54cb4ae79a42990f001ca7b1eafd2" category="list-text">규칙은 문제를 자동으로 해결할 수 없습니다. 제공된 지침을 사용하여 규정을 준수하지 않는 리소스를 직접 수정해야 합니다.</block>
+  <block id="e0ff3e32dbc4b668a800d5b59c47613b" category="list-text">각 규칙은 한 가지 유형의 리소스만 검사하지만, 광범위한 리소스에 적용될 수 있습니다. 예를 들어, 하나의 규칙으로 여러 리전, 모든 리전 또는 여러 계정의 볼륨을 평가할 수 있습니다. 서로 다른 유형의 리소스를 평가하려면 별도의 규칙을 생성하십시오.</block>
+  <block id="3f84490332db2de49bed3d46ab452bb0" category="list-text">과도한 스캔을 방지하기 위해 규칙은 최대 한 시간에 한 번만 실행됩니다.</block>
+  <block id="499ed12f9f73ef11f2d3afd859dacba5" category="list-text">규칙은 환경을 읽기만 할 수 있으며 변경할 수는 없습니다.</block>
+  <block id="7d178946e8d76597de91865cae420fb6" category="list-text">나중에 규칙 카탈로그에서 이러한 설정을 업데이트할 수 있습니다.</block>
+  <block id="db78d463a1f2fbb737aa54f862bd0d4b" category="list-text">규칙을 생성할 수 없습니다. 채팅에서 규칙을 다시 열고 편집을 계속할 수 있습니다.</block>
+  <block id="b1caf7f21c1b8899e11165a6aed71af9" category="list-text">편집</block>
+  <block id="f25dfb15b911ed977033f485330ceadd" category="list-text">기존 규칙의 초안을 업데이트하는 중입니다. 변경 사항을 저장할 때까지 현재 예약된 규칙은 계속 실행됩니다.</block>
+  <block id="2b7dabba0077abe3732e0418b048a56b" category="list-text">예약됨</block>
+  <block id="cc36425e424f4c30e5d1dd8b4cf78a69" category="list-text">운영 볼륨 보호</block>
+  <block id="9beacae88b6d84f519d92cf003a30d57" category="list-text">아카이브 볼륨 티어링</block>
+  <block id="ccf414cfce06645c55d0bcfd5f41608b" category="list-text">파일 시스템 명명 표준</block>
+  <block id="ef517711d9a5dee55f2bb56046d3fd70" category="paragraph"><block ref="385442535e80145b437f6d2ceb94114a" category="inline-link-macro-rx"></block> <block ref="f571cd95e32f7c421382198bc0dd0eae" category="inline-link-macro-rx"></block></block>
+  <block id="71d671c8e1cf2aa5cf976dd7ff9d340b" category="summary">규칙 카탈로그에서 사용자 지정 아키텍처 규칙을 보고, 편집, 활성화, 비활성화 및 삭제합니다.</block>
+  <block id="8ef292d4be46fbc351d35b26b3ce8720" category="paragraph">규칙 카탈로그는 모든 사용자 지정 규칙을 관리할 수 있는 단일 공간입니다. 규칙 세부 정보를 검토하고, 규칙을 편집하고, 결과를 확인하고, 규칙이 일정에 따라 실행될지 여부를 제어할 수 있습니다.</block>
+  <block id="12a0a2265c24db72f6aaae801b9ef08e" category="section-title">사용자 지정 규칙 편집</block>
+  <block id="dbea8da43ac90f4152565d880d18e30e" category="paragraph">규칙 이름은 언제든지 변경할 수 있습니다. 또한 규칙의 설명, 리소스 유형, 일정, 심각도, 조건 논리, 평가 범위 및 해결 지침을 편집할 수 있습니다.</block>
+  <block id="8473633d69dc94d27429c2a37902fe75" category="paragraph">규칙 카탈로그나 규칙 세부 정보 카드에서 규칙 이름을 변경할 수 있습니다. 다른 규칙 설정을 편집하려면 규칙 카탈로그에서 시작하십시오.</block>
+  <block id="c581903f7e0dde27bf4a83cc84f27b43" category="list-text">규칙 카탈로그에서 편집하려는 규칙을 클릭합니다.</block>
+  <block id="2dc19156fac0f6096a2db17a78fe0da8" category="list-text">규칙 이름을 변경하려면 카탈로그 또는 규칙 세부 정보 카드에서 규칙 이름을 업데이트하십시오.</block>
+  <block id="4d3a6d0da6e18e9505524b8a39ca5bf1" category="list-text">다른 규칙 설정을 편집하려면 *편집*을 클릭하십시오.</block>
+  <block id="01e52dae8e86fc149d714c3cdc94859d" category="paragraph">해당 규칙은 전체 내역과 함께 채팅 모드로 열립니다.</block>
+  <block id="91fa4b053658e4dedadb0d60014d7b3e" category="list-text">변경하고 싶은 사항을 요청하거나 채팅창에서 요청 내용을 업데이트하세요.</block>
+  <block id="f5500860e31d724af72a4be713c2c1e5" category="paragraph">이전에 규칙 생성에 실패한 경우, 해당 규칙에서 이어서 채팅을 통해 요청을 업데이트할 수 있습니다.</block>
+  <block id="1f998f331ae48a1cf2b4056c154eff9f" category="list-text">업데이트된 설명과 변경 사항 요약을 검토하십시오.</block>
+  <block id="fc7c0f65a3d8f2f0a1da1c56bd143c30" category="paragraph">시스템은 규칙을 저장하기 전에 현재 규칙에서 변경된 사항을 보여줍니다.</block>
+  <block id="023ad31a6b18fc538747a36ab488e65c" category="list-text">규칙이 초안 모드인 경우, *규칙 유효성 검사*를 선택하여 업데이트된 로직을 테스트하십시오.</block>
+  <block id="58b17236d18d0245f7322e360753f322" category="list-text">변경 사항을 유지하려면 *저장*을 클릭하여 현재 규칙을 대체하십시오. 일정을 변경한 경우 업데이트된 일정을 저장하십시오. 일정을 변경하지 않은 경우 일정은 그대로 유지됩니다.</block>
+  <block id="a91166998826b450f2fb807ba450dbc4" category="list-text">변경 내용을 취소하려면 *변경 내용 취소*를 클릭하십시오. 규칙이 이전 버전으로 되돌아가고 편집 모드가 종료됩니다.</block>
+  <block id="053ebf33b65f60110cd8e776b413ed79" category="paragraph">규칙을 편집하는 동안에는 해당 규칙이 *편집 중*으로 표시됩니다. 다른 사용자는 현재 예약된 규칙을 계속 볼 수 있으며, 변경 사항을 저장할 때까지 예약된 실행은 정상적으로 계속됩니다.</block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026년 10월 4일</block>
 </blocks>
